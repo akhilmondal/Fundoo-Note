@@ -34,7 +34,8 @@ app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);
 
-app.listen(port, () => {
+//to start the server and make it listen for incoming HTTP requests on a specified port.
+app.listen(port, () => { 
   logger.info(`Server started at ${host}:${port}/api/${api_version}/`);
 });
 

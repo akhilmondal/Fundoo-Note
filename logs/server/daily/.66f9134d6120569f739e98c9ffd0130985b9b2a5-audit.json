@@ -9,6 +9,21 @@
             "date": 1686802783651,
             "name": "logs/server/daily/2023-06-15.log",
             "hash": "618148327f6ebf14d549aca659030d9db14ca5cc257bf580f3a1933f792ba2b8"
+        },
+        {
+            "date": 1686876596567,
+            "name": "logs/server/daily/2023-06-16.log",
+            "hash": "dbfa6d1818c9f782b3af8d8dff557e8468e456739d017842d709a5dc7a019d60"
+        },
+        {
+            "date": 1686979828379,
+            "name": "logs/server/daily/2023-06-17.log",
+            "hash": "53d9bc7eebc16247ce5f4e163756eff6aa30cbac33076c32b66f2413ff542803"
+        },
+        {
+            "date": 1687142574249,
+            "name": "logs/server/daily/2023-06-19.log",
+            "hash": "a0ab5804b1c0e96d9aca87bbe5dad5f5400234c18ebf081087fa5d8a293f783c"
         }
     ],
     "hashType": "sha256"
