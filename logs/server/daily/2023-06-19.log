@@ -1,2 +1,60 @@
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-19T02:42:54.288Z"}
 info: Connected to the database. {"timestamp":"2023-06-19T02:42:54.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-19T02:53:18.435Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T02:53:18.464Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-19T03:48:50.109Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T03:48:50.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-19T03:51:20.697Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T03:51:20.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-19T03:51:34.604Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T03:51:34.628Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-19T06:09:16.644Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:09:42.771Z"}
+error: 
+    status - 500 
+    message - Error: User is already Present. 
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/services/user.service.js:9:11)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T06:10:22.627Z"}
+error: 
+    status - 500 
+    message - Error: User is already Present. 
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/services/user.service.js:9:11)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T06:13:39.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-19T08:42:02.602Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T08:42:02.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-19T08:44:47.107Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T08:44:47.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-19T08:45:08.417Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T08:45:08.441Z"}
+error: 
+    status - 500 
+    message - Error: User is already Present. 
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/services/user.service.js:9:11)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T08:48:24.210Z"}
