@@ -1,15 +1,3 @@
-info: ::1 - - [15/Jun/2023:06:09:41 +0000] "GET /api/v1/users/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.32.2"
-
-info: ::1 - - [15/Jun/2023:06:12:03 +0000] "POST /api/v1/users/ HTTP/1.1" 201 273 "-" "PostmanRuntime/7.32.2"
-
-info: ::1 - - [15/Jun/2023:06:13:30 +0000] "POST /api/v1/users/ HTTP/1.1" 201 285 "-" "PostmanRuntime/7.32.2"
-
-info: ::1 - - [15/Jun/2023:06:18:46 +0000] "POST /api/v1/users/ HTTP/1.1" 201 277 "-" "PostmanRuntime/7.32.2"
-
-info: ::1 - - [15/Jun/2023:16:47:59 +0000] "GET /api/v1/users/?emailId=pawanbiker21@gmail.com HTTP/1.1" 200 879 "-" "PostmanRuntime/7.32.2"
-
-info: ::1 - - [15/Jun/2023:16:48:34 +0000] "GET /api/v1/users/?emailId=pawanbiker21@gmail.com HTTP/1.1" 200 879 "-" "PostmanRuntime/7.32.2"
-
 info: ::1 - - [16/Jun/2023:00:50:47 +0000] "GET /api/v1/users/?emailId=pawanbiker21@gmail.com HTTP/1.1" 200 879 "-" "PostmanRuntime/7.32.2"
 
 info: ::1 - - [16/Jun/2023:00:51:02 +0000] "GET /api/v1/users/pawanbiker21@gmail.com HTTP/1.1" 500 144 "-" "PostmanRuntime/7.32.2"

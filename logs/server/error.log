@@ -1,0 +1,81 @@
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "pawanbiker21@gmail.com" (type string) at path "_id" for model "User"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/pawanbiker21@gmail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-16T00:51:02.311Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_emailId=pawanbiker21@gmail.com" (type string) at path "_id" for model "User"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/_emailId=pawanbiker21@gmail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-16T00:51:44.440Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "User"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/search/?emailId=pawanbiker21@gmail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-16T01:02:58.795Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "User"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/search/?emailId=pawanbiker21@gmail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-16T01:04:54.792Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "User"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/search/?emailId=pawanbiker21@gmail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-16T01:12:07.441Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "User"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/search/?emailId=pawanbiker21@gmail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-16T01:19:17.599Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "pawanbiker21@gmail.com" (type string) at path "_id" for model "User"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/pawanbiker21@gmail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-16T01:19:39.614Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "pawanbiker21@gmail.com" (type string) at path "_id" for model "User"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/pawanbiker21@gmail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-16T01:19:58.735Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/connection.js:847:32)\n    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/index.js:351:10\n    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/index.js:350:20)\n    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/config/database.js:12:20)\n    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)\n    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)\n    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)\n    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)\n    at database (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/config/database.js:4:15)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1255:14)\n    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1309:10)\n    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1113:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1255:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1309:10)\n    at Module.load (node:internal/modules/cjs/loader:1113:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-06-17T05:30:58.436Z"}
