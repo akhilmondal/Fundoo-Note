@@ -148,3 +148,103 @@ info: ::1 - - [21/Jun/2023:11:26:00 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [21/Jun/2023:12:15:12 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [22/Jun/2023:02:21:50 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:02:23:00 +0000] "POST /api/v1/users/l HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:02:23:09 +0000] "POST /api/v1/users/ HTTP/1.1" 201 324 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:02:23:50 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:02:24:55 +0000] "POST /api/v1/users/login HTTP/1.1" 202 277 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:02:34:05 +0000] "POST /api/v1/notes/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:02:35:17 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/routes/index.js:15:24)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1255:14)
+    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1309:10)
+    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1113:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1255:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1309:10)
+    at Module.load (node:internal/modules/cjs/loader:1113:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Thu Jun 22 2023 08:16:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.5,0.39,0.39],"uptime":2686.43},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19230410,"external":22038325,"heapTotal":86462464,"heapUsed":52698992,"rss":143044608},"pid":7260,"uid":1000,"version":"v20.3.0"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/routes/index.js:15:24)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1255:14)\n    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1309:10)\n    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1113:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1255:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1309:10)\n    at Module.load (node:internal/modules/cjs/loader:1113:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/routes/index.js","function":"routes","line":15,"method":null,"native":false},{"column":38,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1255,"method":"_compile","native":false},{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1309,"method":".js","native":false},{"column":7,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1113,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1255,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1309,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1113,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":83,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [22/Jun/2023:02:48:05 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 288 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:05:58 +0000] "POST /api/v1/users HTTP/1.1" 201 328 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:06:30 +0000] "POST /api/v1/users/login HTTP/1.1" 202 279 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:07:29 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:07:48 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 288 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:08:26 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:26:34 +0000] "GET /api/v1/notes/getallnotes HTTP/1.1" 200 524 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:57:12 +0000] "PUT /api/v1/notes/update/?_id=6493bb049188511927cf48e7 HTTP/1.1" 500 140 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:57:31 +0000] "PUT /api/v1/notes/update/?id=6493bb049188511927cf48e7 HTTP/1.1" 500 140 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:58:16 +0000] "PUT /api/v1/notes/update/6493bb049188511927cf48e7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:03:59:46 +0000] "PUT /api/v1/notes/update/?id=6493bb049188511927cf48e7 HTTP/1.1" 500 140 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:04:00:02 +0000] "PUT /api/v1/notes/update/?_id=6493bb049188511927cf48e7 HTTP/1.1" 500 140 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:04:20:37 +0000] "PUT /api/v1/notes/update/6493bb049188511927cf48e7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:04:21:59 +0000] "PUT /api/v1/notes/6493bb049188511927cf48e7 HTTP/1.1" 202 288 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:49:16 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:49:29 +0000] "POST /api/v1/users/ HTTP/1.1" 201 329 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:49:54 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:50:56 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:51:11 +0000] "POST /api/v1/notes HTTP/1.1" 201 255 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:51:46 +0000] "POST /api/v1/notes HTTP/1.1" 201 251 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:52:05 +0000] "POST /api/v1/notes HTTP/1.1" 201 249 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:52:33 +0000] "POST /api/v1/notes HTTP/1.1" 201 251 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:53:42 +0000] "PUT /api/v1/notes/6493efb1b963ce26638978b1 HTTP/1.1" 202 251 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:07:00:57 +0000] "GET /api/v1/notes/6493efb1b963ce26638978b1 HTTP/1.1" 200 251 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:07:01:08 +0000] "GET /api/v1/notes/6493efb1b963ce26638978b HTTP/1.1" 400 146 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:07:01:23 +0000] "GET /api/v1/notes/6493efb1b963ce26638978b1 HTTP/1.1" 200 251 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:07:07:11 +0000] "DELETE /api/v1/notes/6493efb1b963ce26638978b1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:08:04:15 +0000] "POST /api/v1/users/ HTTP/1.1" 201 335 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:08:04:31 +0000] "POST /api/v1/users/login HTTP/1.1" 202 285 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:08:06:07 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 648 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:08:10:21 +0000] "PUT /api/v1/notes/archive/6493ef95b963ce26638978af HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:08:10:44 +0000] "PUT /api/v1/notes/archive/6493ef95b963ce26638978af HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:08:11:01 +0000] "PUT /api/v1/notes/archive/6493ef95b963ce26638978af HTTP/1.1" 400 110 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:08:12:45 +0000] "PUT /api/v1/notes/archive/6493ef95b963ce26638978af HTTP/1.1" 400 111 "-" "PostmanRuntime/7.32.3"
+

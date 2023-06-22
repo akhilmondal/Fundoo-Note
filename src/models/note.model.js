@@ -20,16 +20,9 @@ const noteSchema = new Schema(
       type: Boolean,
       default: false
     },
-    userId:{
+    createdBy:{
       type:String
-    },
-    pinned:{
-      type:Boolean,
-      default:false
-    },
-    collaborator:[{
-      type:String
-    }]
+    }
   },
 
   {

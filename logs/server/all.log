@@ -425,3 +425,208 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-06-21T12:15:12.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T02:21:43.063Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T02:21:43.082Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/jsonwebtoken/verify.js:75:17)
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/middlewares/auth.middleware.js:25:29)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/middlewares/auth.middleware.js:15:22)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:328:13)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:328:13)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:328:13)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/raw-body/index.js:231:16)
+    at done (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:511:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1367:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-22T02:21:50.700Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-06-22T02:23:50.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T02:24:34.265Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T02:24:34.281Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T02:35:00.053Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T02:35:00.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T02:39:06.872Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T02:39:06.891Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T02:41:22.646Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T02:41:22.667Z"}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/routes/index.js:15:24)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1255:14)
+    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1309:10)
+    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1113:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1255:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1309:10)
+    at Module.load (node:internal/modules/cjs/loader:1113:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Thu Jun 22 2023 08:16:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.5,0.39,0.39],"uptime":2686.43},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19219438,"external":22027313,"heapTotal":86462464,"heapUsed":52539056,"rss":143044608},"pid":7260,"uid":1000,"version":"v20.3.0"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/routes/index.js:15:24)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1255:14)\n    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1309:10)\n    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1113:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1255:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1309:10)\n    at Module.load (node:internal/modules/cjs/loader:1113:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-06-22T02:46:55.800Z","trace":[{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/routes/index.js","function":"routes","line":15,"method":null,"native":false},{"column":38,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1255,"method":"_compile","native":false},{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1309,"method":".js","native":false},{"column":7,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1113,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1255,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1309,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1113,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":83,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T02:47:27.583Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T02:47:27.598Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T02:58:15.506Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T02:58:15.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T03:00:09.631Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:00:09.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T03:00:56.329Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:00:56.354Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T03:01:48.451Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:01:48.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T03:25:45.462Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:25:45.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T03:26:02.388Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:26:02.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T03:52:17.250Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:52:17.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T03:53:02.027Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:53:02.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T03:53:32.659Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:53:32.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T03:55:02.371Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:55:02.400Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/?_id=6493bb049188511927cf48e7 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-22T03:57:12.563Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/?id=6493bb049188511927cf48e7 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-22T03:57:31.853Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/?id=6493bb049188511927cf48e7 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-22T03:59:46.492Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/?_id=6493bb049188511927cf48e7 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-22T04:00:02.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T04:21:32.955Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T04:21:32.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T04:21:40.480Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T04:21:40.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T04:21:49.141Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T04:21:49.178Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T04:23:09.314Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T04:23:09.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T06:54:13.307Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T06:54:13.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T06:57:09.962Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T06:57:09.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T06:57:46.118Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T06:57:46.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T06:59:08.557Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T06:59:08.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:00:36.463Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:00:36.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:02:56.531Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:02:56.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:03:10.885Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:03:10.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:04:49.752Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:04:49.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:06:33.450Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:06:33.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:06:59.224Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:06:59.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:28:41.395Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:28:41.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:52:41.264Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:52:41.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:56:50.853Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:56:50.881Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:57:00.086Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:57:00.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:58:25.174Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:58:25.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T07:59:24.240Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T07:59:24.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T08:02:24.589Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T08:02:24.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T08:10:39.380Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T08:10:39.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T08:10:54.156Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T08:10:54.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T08:11:39.391Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T08:11:39.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T08:12:37.641Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T08:12:37.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T10:47:20.714Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T10:47:20.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T10:48:08.355Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T10:48:08.390Z"}
