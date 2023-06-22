@@ -1,15 +1,41 @@
 import Note from '../models/note.model';
 
-//get all note
-export const getAllNotes = async () => {
-    const data = await Note.find();
-    return data;
-  };
-
 // creat new note.
 export const newNote = async (body) => {
-      const data = await Note.create(body);
-      return data;
-  };
+  const data = await Note.create(body);
+  return data;
+};
 
-  
+// Get all Notes
+export const getAllNotes = async () => {
+  const data = await Note.find();
+  return data;
+};
+
+// Get note by id
+export const getNote = async (id) => {
+  const data = await Note.findById(id);
+  return data;
+};
+
+//Update Note by id
+export const updateNote = async (_id, body) => {
+  const data = await Note.findByIdAndUpdate(
+    {
+      _id
+    },
+    body,
+    {
+      new: true
+    }
+  );
+  return data;
+};
+
+//Delete Note by id
+export const deleteNote = async (id) => {
+  await Note.findByIdAndDelete(id);
+  return '';
+};
+
+
