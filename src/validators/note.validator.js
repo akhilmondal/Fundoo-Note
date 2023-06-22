@@ -1,11 +1,10 @@
 import Joi from '@hapi/joi';
 
-export const newUserValidator = (req, res, next) => {
+export const newNoteValidator = (req, res, next) => {
   const schema = Joi.object({
-    firstName: Joi.string().min(4).required(),
-    lastName: Joi.string().min(4).required(),
-    emailId: Joi.string().email().required(),
-    passWord: Joi.string().required()
+    title: Joi.string().min(4).required(),
+    description: Joi.string().min(4).required(),
+    color: Joi.optional()
   });
   const { error, value } = schema.validate(req.body);
   if (error) {
