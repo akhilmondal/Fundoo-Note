@@ -80,3 +80,35 @@ info: ::1 - - [22/Jun/2023:08:11:01 +0000] "PUT /api/v1/notes/archive/6493ef95b9
 
 info: ::1 - - [22/Jun/2023:08:12:45 +0000] "PUT /api/v1/notes/archive/6493ef95b963ce26638978af HTTP/1.1" 400 111 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [22/Jun/2023:11:09:06 +0000] "PUT /api/v1/notes/archive/6493ef95b963ce26638978af HTTP/1.1" 500 46 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:10:36 +0000] "PUT /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:10:45 +0000] "POST /api/v1/users HTTP/1.1" 201 328 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:11:12 +0000] "POST /api/v1/users/login HTTP/1.1" 202 279 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:12:52 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 255 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:13:45 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 400 58 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:14:26 +0000] "PUT /api/v1/notes/archive/?_id=64942cb489511343f34d7666 HTTP/1.1" 400 141 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:14:45 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 400 58 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:16:52 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:42:00 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:44:43 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 400 91 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:44:54 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:49:00 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 200 255 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:49:10 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 200 256 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:49:17 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 200 255 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:11:49:28 +0000] "PUT /api/v1/notes/archive/64942cb489511343f34d7666 HTTP/1.1" 200 256 "-" "PostmanRuntime/7.32.3"
+

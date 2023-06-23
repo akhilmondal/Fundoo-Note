@@ -20,4 +20,7 @@ router.put('/:_id',userAuth, noteController.updateNote);
 //route to delete Note
 router.delete('/:_id',userAuth, noteController.deleteNote);
 
+//route to archive Note
+router.put('/archive/:_id', userAuth, noteController.archiveNote);
+
 export default router;

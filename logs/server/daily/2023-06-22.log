@@ -186,3 +186,75 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T1
 info: Connected to the database. {"timestamp":"2023-06-22T10:47:20.740Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T10:48:08.355Z"}
 info: Connected to the database. {"timestamp":"2023-06-22T10:48:08.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T11:08:09.219Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T11:08:09.240Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/jsonwebtoken/verify.js:152:21
+    at getSecret (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/middlewares/auth.middleware.js:25:29)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/middlewares/auth.middleware.js:15:22)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:284:15
+    at param (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:421:3)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:328:13)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:328:13)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:328:13)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/raw-body/index.js:231:16)
+    at done (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:511:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1367:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/archive/6493ef95b963ce26638978af 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-22T11:09:06.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T11:16:47.263Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T11:16:47.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T11:41:55.435Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T11:41:55.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T11:44:51.122Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T11:44:51.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T11:48:07.194Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T11:48:07.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T11:48:18.817Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T11:48:18.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-22T17:38:50.943Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T17:38:50.970Z"}
