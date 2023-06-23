@@ -55,3 +55,19 @@ export const archiveNote = async (_id) => {
   }
 };
 
+//trash note by id
+export const trashNote = async (_id) => {
+  const data = await Note.findById(_id);
+  let trashStatus;
+  if (data) {
+    trashStatus = (data.trash == false)? true: false;
+    const updatedData = await Note.findByIdAndUpdate(
+      { _id },
+      { trash: trashStatus },
+      { new: true }
+    );
+    return updatedData;
+  } else {
+    throw new Error('Invalid Note Id');
+  }
+};

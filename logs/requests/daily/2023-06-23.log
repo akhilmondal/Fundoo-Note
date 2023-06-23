@@ -18,3 +18,7 @@ info: ::1 - - [23/Jun/2023:01:53:19 +0000] "PUT /api/v1/notes/trash/6494f9c7b7e4
 
 info: ::1 - - [23/Jun/2023:01:53:59 +0000] "PUT /api/v1/notes/trash/6494f9c7b7e44a1b9c8f459d HTTP/1.1" 200 256 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [23/Jun/2023:02:04:33 +0000] "PUT /api/v1/notes/trash/6494f9c7b7e44a1b9c8f459d HTTP/1.1" 200 257 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:02:04:35 +0000] "PUT /api/v1/notes/trash/6494f9c7b7e44a1b9c8f459d HTTP/1.1" 200 256 "-" "PostmanRuntime/7.32.3"
+
