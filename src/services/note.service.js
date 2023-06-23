@@ -38,4 +38,20 @@ export const deleteNote = async (id) => {
   return '';
 };
 
+//Archive note by id
+export const archiveNote = async (_id) => {
+  const data = await Note.findById(_id);
+  let archiveStatus;
+  if (data) {
+    archiveStatus = (data.archive == false)? true: false;
+    const updatedData = await Note.findByIdAndUpdate(
+      { _id },
+      { archive: archiveStatus },
+      { new: true }
+    );
+    return updatedData;
+  } else {
+    throw new Error('Invalid Note Id');
+  }
+};
 

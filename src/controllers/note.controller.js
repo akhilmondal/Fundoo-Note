@@ -87,3 +87,20 @@ export const deleteNote = async (req, res, next) => {
   }
 };
 
+//Controller for Archive Note
+export const archiveNote = async (req, res, next) => {
+  try {
+    const data = await NoteService.archiveNote(req.params._id);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Note archived successfully'
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
+
