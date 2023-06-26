@@ -7,14 +7,14 @@ export const newNote = async (body) => {
 };
 
 // Get all Notes
-export const getAllNotes = async () => {
-  const data = await Note.find();
+export const getAllNotes = async (body) => {
+  const data = await Note.find({ createdBy: body.createdBy });
   return data;
 };
 
 // Get note by id
-export const getNote = async (id) => {
-  const data = await Note.findById(id);
+export const getNote = async (_id, body) => {
+  const data = await Note.findById({ _id: _id, createdBy: body.createdBy });
   return data;
 };
 
@@ -22,7 +22,8 @@ export const getNote = async (id) => {
 export const updateNote = async (_id, body) => {
   const data = await Note.findByIdAndUpdate(
     {
-      _id
+      _id: _id,
+      createdBy: body.createdBy
     },
     body,
     {
@@ -33,19 +34,22 @@ export const updateNote = async (_id, body) => {
 };
 
 //Delete Note by id
-export const deleteNote = async (id) => {
-  await Note.findByIdAndDelete(id);
+export const deleteNote = async (id, body) => {
+  await Note.findByIdAndDelete({ _id: _id, createdBy: body.createdBy });
   return '';
 };
 
 //Archive note by id
-export const archiveNote = async (_id) => {
-  const data = await Note.findById(_id);
+export const archiveNote = async (_id, body) => {
+  const data = await Note.findById({ _id: _id, createdBy: body.createdBy });
+  console.log(data);
   let archiveStatus;
   if (data) {
-    archiveStatus = (data.archive == false)? true: false;
+    archiveStatus = data.archive == false ? true : false;
     const updatedData = await Note.findByIdAndUpdate(
-      { _id },
+      {
+        _id: _id
+      },
       { archive: archiveStatus },
       { new: true }
     );
@@ -56,11 +60,11 @@ export const archiveNote = async (_id) => {
 };
 
 //trash note by id
-export const trashNote = async (_id) => {
-  const data = await Note.findById(_id);
+export const trashNote = async (_id, body) => {
+  const data = await Note.findById({ _id: _id, createdBy: body.createdBy });
   let trashStatus;
   if (data) {
-    trashStatus = (data.trash == false)? true: false;
+    trashStatus = data.trash == false ? true : false;
     const updatedData = await Note.findByIdAndUpdate(
       { _id },
       { trash: trashStatus },

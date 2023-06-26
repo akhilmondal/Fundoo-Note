@@ -750,3 +750,93 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T0
 info: Connected to the database. {"timestamp":"2023-06-23T01:59:08.041Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T02:04:30.894Z"}
 info: Connected to the database. {"timestamp":"2023-06-23T02:04:30.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T03:13:36.657Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T03:13:45.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T03:17:55.891Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T03:17:55.924Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T04:05:18.624Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T04:05:18.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T04:09:25.299Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T04:09:25.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T04:09:48.196Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T04:09:48.229Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T04:10:28.065Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T04:10:28.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T04:12:11.572Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T04:12:11.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T04:15:32.102Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T04:15:32.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T04:16:27.481Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T04:16:27.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T10:55:46.079Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T10:55:46.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T11:16:31.997Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T11:16:32.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T11:18:13.598Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T11:18:13.617Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T11:31:02.081Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T11:31:02.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T11:43:48.857Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T11:43:48.881Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T11:46:44.163Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T11:46:44.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-23T14:53:04.432Z"}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:942:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)
+    at writeOrBuffer (node:internal/streams/writable:399:12)
+    at _write (node:internal/streams/writable:340:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:344:10)
+    at Console.log (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:523:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.info (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/create-logger.js:81:14)
+    at Server.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:39:10)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at Server.emit (node:domain:489:12)
+    at emitListeningNT (node:net:1863:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Fri Jun 23 2023 20:23:04 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.44,0.78,0.86],"uptime":41919.29},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19948721,"external":22776237,"heapTotal":86183936,"heapUsed":58777280,"rss":144920576},"pid":12839,"uid":1000,"version":"v20.3.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (node:fs:942:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)\n    at writeOrBuffer (node:internal/streams/writable:399:12)\n    at _write (node:internal/streams/writable:340:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:344:10)\n    at Console.log (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Console.Writable.write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at DerivedLogger.ondata (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:523:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)\n    at readableAddChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)\n    at DerivedLogger.Readable.push (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)\n    at DerivedLogger.Transform.push (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)\n    at DerivedLogger._transform (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/logger.js:313:12)\n    at DerivedLogger.Transform._read (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at DerivedLogger.Transform._write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at DerivedLogger.Writable.write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at DerivedLogger.info (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/create-logger.js:81:14)\n    at Server.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:39:10)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at Server.emit (node:domain:489:12)\n    at emitListeningNT (node:net:1863:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-06-23T14:53:04.446Z","trace":[{"column":3,"file":"node:fs","function":"writeSync","line":942,"method":null,"native":false},{"column":3,"file":"node:internal/fs/sync_write_stream","function":"SyncWriteStream._write","line":26,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":399,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":340,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"SyncWriteStream.Writable.write","line":344,"method":"write","native":false},{"column":23,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":523,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false},{"column":11,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"readableAddChunk","line":262,"method":null,"native":false},{"column":10,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.Readable.push","line":228,"method":"push","native":false},{"column":32,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js","function":"DerivedLogger.Transform.push","line":132,"method":"push","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/logger.js","function":"DerivedLogger._transform","line":313,"method":"_transform","native":false},{"column":10,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js","function":"DerivedLogger.Transform._read","line":166,"method":"_read","native":false},{"column":83,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js","function":"DerivedLogger.Transform._write","line":155,"method":"_write","native":false},{"column":139,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js","function":"DerivedLogger.Writable.write","line":302,"method":"write","native":false},{"column":14,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/create-logger.js","function":"DerivedLogger.info","line":81,"method":"info","native":false},{"column":10,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js","function":null,"line":39,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":489,"method":"emit","native":false},{"column":10,"file":"node:net","function":"emitListeningNT","line":1863,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Connected to the database. {"timestamp":"2023-06-23T14:53:04.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T03:07:47.412Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T03:07:56.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T03:16:18.540Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T03:16:18.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T03:17:09.636Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T03:17:09.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T03:18:24.701Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T03:18:24.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T03:25:15.903Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T03:25:15.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T03:27:42.265Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T03:27:42.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T03:30:39.522Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T03:30:39.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T03:33:20.210Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T03:33:20.248Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T03:37:59.111Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T03:37:59.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T04:30:33.642Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T04:30:33.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T04:32:39.483Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T04:32:39.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T05:44:32.597Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T05:44:32.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-26T05:44:55.697Z"}
+info: Connected to the database. {"timestamp":"2023-06-26T05:44:55.722Z"}
