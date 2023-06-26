@@ -5,6 +5,7 @@ import { date } from '@hapi/joi';
 //Controller to create new note
 export const newNote = async (req, res, next) => {
   try {
+    // console.log("create note req body",req.body);
     const data = await NoteService.newNote(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
@@ -22,7 +23,7 @@ export const newNote = async (req, res, next) => {
 //Controller to get all notes
 export const getAllNotes = async (req, res, next) => {
   try {
-    const data = await NoteService.getAllNotes();
+    const data = await NoteService.getAllNotes(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -39,7 +40,7 @@ export const getAllNotes = async (req, res, next) => {
 //get note by id
 export const getNote = async (req, res, next) => {
   try {
-    const data = await NoteService.getNote(req.params._id);
+    const data = await NoteService.getNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
