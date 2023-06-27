@@ -72,7 +72,7 @@ export const resetPassWord = async (_id, body) => {
     }
   );
   if (!data) {
-    throw new Error('Invalid user id.');
+    throw new Error('Invalid user id. ');
   } else {
     return data;
   }

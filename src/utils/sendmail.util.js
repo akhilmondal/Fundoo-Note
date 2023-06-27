@@ -39,5 +39,4 @@ export const sendMail = async (email, token) => {
     } catch (error) {
         return error;
     };
-    
 };

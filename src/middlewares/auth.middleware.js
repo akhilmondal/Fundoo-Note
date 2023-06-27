@@ -15,7 +15,6 @@ import jwt from 'jsonwebtoken';
 export const userAuth = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization');
-    console.log(bearerToken);
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
@@ -24,7 +23,28 @@ export const userAuth = async (req, res, next) => {
     bearerToken = bearerToken.split(' ')[1];
 
     const user  = await jwt.verify(bearerToken, process.env.SECRET_KEY);
+    req.body.createdBy = user.id;
     next();
+  } catch (error) {
+    next(error);
+  }
+};
+
+
+// Middleware to authenticate if user has a valid Authorization token to reset Password
+export const userAuthForPassWordReset = async (req, res, next) => {
+  try {
+    let bearerToken = req.header('Authorization');
+    if (!bearerToken) 
+    throw {
+      code: HttpStatus.BAD_REQUEST,
+      message: 'Authorization token is required.'
+    };
+    bearerToken = bearerToken.split(' ')[1];
+
+    const user = await jwt.verify(bearerToken, process.env.PASSWORD_RESET_KEY);
+    next();
+
   } catch (error) {
     next(error);
   }
