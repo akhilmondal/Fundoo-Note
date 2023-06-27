@@ -32,3 +32,29 @@ info: ::1 - - [26/Jun/2023:03:33:25 +0000] "PUT /api/v1/notes/archive/649901b5a6
 
 info: ::1 - - [26/Jun/2023:03:38:14 +0000] "PUT /api/v1/notes/archive/649901b5a6196f2dea333635 HTTP/1.1" 400 93 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [26/Jun/2023:09:12:38 +0000] "POST /api/v1/users/ HTTP/1.1" 201 332 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:09:13:00 +0000] "POST /api/v1/users/login HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:09:15:05 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 200 588 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:09:26:21 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 200 588 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:09:34:33 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 200 583 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:09:37:42 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 200 585 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:09:38:39 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 200 587 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:09:44:46 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 200 588 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:09:58:14 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 200 295 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:10:00:29 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 200 295 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:23:13 +0000] "POST /api/v1/users/ HTTP/1.1" 201 333 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:05:04 +0000] "POST /api/v1/users/login HTTP/1.1" 202 289 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:05:27 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 200 298 "-" "PostmanRuntime/7.32.3"
+

@@ -13,7 +13,7 @@ const REFRESH_TOKEN = process.env.REFRESH_TOKEN
 const oAuth2Client = new google.auth.OAuth2(CLIENT_ID,CLIENT_SECRET, REDIRECT_URI)
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN })
 
-export const sendMail = async () => {
+export const sendMail = async (email, token) => {
     try {
         const accessToken = await oAuth2Client.getAccessToken()
         const transport = nodemailer.createTransport({
@@ -26,21 +26,17 @@ export const sendMail = async () => {
                 refreshToken: REFRESH_TOKEN,
                 accessToken: accessToken
             }
-        })
+        });
         const mailOptions = {
             from: 'AKHILMONDAL <akhilmandalfamily@gmail.com>',
-            to: 'akhilmandalfamily@outlook.com',
-            subject: 'Hello Gmail API',
-            text: 'This is an email from Gmail API',
-            html: '<h1>Hello everyone this is an example mail of gmail API.</h1>'
+            to: email,
+            subject: 'Password Reset',
+            text: `This mail is to Reset Your Password.".`,
+            html:`<h1>Hello,<br><br>Click on given link to reset your password!</h1><br><h1>Link:><a href="http://localhost:${process.env.APP_PORT}/${token}">click here</a></h1>`
         };
         const result = await transport.sendMail(mailOptions);
         return result;
     } catch (error) {
         return error;
-    }
-}
-
-sendMail() // call this function from srvice
-.then((result) => console.log('Email sent...' ,result))
-.catch((error) => console.log(error.message));
+    };
+};
