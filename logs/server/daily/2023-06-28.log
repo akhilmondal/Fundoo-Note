@@ -1,0 +1,26 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T03:36:56.297Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T03:37:01.848Z"}
+error: 
+    status - 500 
+    message - Error: User is already Present. 
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/services/user.service.js:12:11)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-28T03:47:10.820Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T03:57:32.711Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T03:57:32.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T04:05:42.857Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T04:05:42.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T04:06:33.917Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T04:06:33.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T04:08:21.268Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T04:08:21.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T04:08:32.309Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T04:08:32.327Z"}

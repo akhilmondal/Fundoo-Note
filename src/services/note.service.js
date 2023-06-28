@@ -34,7 +34,7 @@ export const updateNote = async (_id, body) => {
 };
 
 //Delete Note by id
-export const deleteNote = async (id, body) => {
+export const deleteNote = async (_id, body) => {
   await Note.findByIdAndDelete({ _id: _id, createdBy: body.createdBy });
   return '';
 };
