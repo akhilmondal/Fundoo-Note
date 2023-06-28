@@ -74,7 +74,7 @@ export const updateNote = async (req, res, next) => {
 //Controller to delete a note by id
 export const deleteNote = async (req, res, next) => {
   try {
-    await NoteService.deleteNote(req.params._id);
+    await NoteService.deleteNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: [],
@@ -91,7 +91,7 @@ export const deleteNote = async (req, res, next) => {
 //Controller for Archive Note
 export const archiveNote = async (req, res, next) => {
   try {
-    const data = await NoteService.archiveNote(req.params._id);
+    const data = await NoteService.archiveNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -108,7 +108,7 @@ export const archiveNote = async (req, res, next) => {
 //Controller for trash Note
 export const trashNote = async (req, res, next) => {
   try {
-    const data = await NoteService.trashNote(req.params._id);
+    const data = await NoteService.trashNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

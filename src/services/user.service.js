@@ -59,18 +59,14 @@ export const forgetPassWord = async (body) => {
 };
 
 // Service for reset password
-export const resetPassWord = async (_id, body) => {
+export const resetPassWord = async (userId, body) => {
   const saltRounds = 10;
   const salt = bcrypt.genSaltSync(saltRounds);
   const hash = bcrypt.hashSync(body.passWord, salt);
   body.passWord = hash;
-  const data = await User.findByIdAndUpdate(
-    { _id: _id },
-    { passWord: body.passWord },
-    {
-      new: true
-    }
-  );
+  const data = await User.findByIdAndUpdate({ _id: userId }, body, {
+    new: true
+  });
   if (!data) {
     throw new Error('Invalid user id. ');
   } else {

@@ -9,7 +9,7 @@ const noteSchema = new Schema(
     description: {
       type: String
     },
-    color: {  
+    color: {
       type: String
     },
     archive: {
@@ -20,15 +20,15 @@ const noteSchema = new Schema(
       type: Boolean,
       default: false
     },
-    createdBy:{
-      type:String
+    createdBy: {
+      type: String
     }
   },
 
   {
     timestamps: true,
     collection: 'Note',
-    versionKey: false 
+    versionKey: false
   }
 );
 
