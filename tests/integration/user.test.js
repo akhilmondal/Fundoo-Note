@@ -4,6 +4,10 @@ import mongoose from 'mongoose';
 import HttpStatus from 'http-status-codes';
 import app from '../../src/index';
 
+// Declaring variables
+let userLoginToken;
+let userResetToken;
+
 describe('User APIs Test', () => {
   before((done) => {
     const clearCollections = () => {
@@ -73,6 +77,7 @@ describe('User APIs Test', () => {
         .post('/api/v1/users/login')
         .send(userdetails)
         .end((err, res) => {
+          userLoginToken = res.body.userToken; // Assigning the token to the variable from user Controller
           expect(res.statusCode).to.be.equal(HttpStatus.ACCEPTED);
           done();
         });
@@ -103,6 +108,7 @@ describe('User APIs Test', () => {
         .post('/api/v1/users/forgetpass')
         .send(userDetails)
         .end((err, res) => {
+          userResetToken = res.body.userToken; // Assigning the token to the variable from user Controller
           expect(res.statusCode).to.be.equal(HttpStatus.OK);
           done();
         });
@@ -115,6 +121,39 @@ describe('User APIs Test', () => {
       request(app)
         .post('/api/v1/users/forgetpass')
         .send(userDetails)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
+          done();
+        });
+    });
+  });
+
+  // Testing for Notes
+  describe('POST /create new note', () => {
+    it('given new note when added should return status 201', (done) => {
+      const noteDetails = {
+        title: 'My First Note',
+        description: 'hello everyone'
+      };
+      request(app)
+        .post('/api/v1/notes')
+        .set('Authorization', `Bearer ${userLoginToken}`)  // Setting the bearer token for the authorization
+        .send(noteDetails)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.CREATED);
+          done();
+        });
+    });
+
+    it('given new note when added should return status 400', (done) => {
+      const noteDetails = {
+        title: 'hi',
+        description: 'hello everyone'
+      };
+      request(app)
+        .post('/api/v1/notes')
+        .set('Authorization', `Bearer ${userLoginToken}`)   // Setting the bearer token for the authorization
+        .send(noteDetails)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
           done();

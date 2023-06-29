@@ -23,10 +23,10 @@ export const newUser = async (req, res, next) => {
 // Controller to login an user
 export const userLogin = async (req, res, next) => {
   try {
-    const data = await UserService.userLogin(req.body);
+    const userToken = await UserService.userLogin(req.body);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
-      data: data,
+      userToken: userToken,
       message: 'User logged in successfully'
     });
   } catch (error) {
@@ -40,10 +40,10 @@ export const userLogin = async (req, res, next) => {
 // Controller for forget password
 export const forgetPassWord = async (req, res, next) => {
   try {
-    const data = await UserService.forgetPassWord(req.body);
+    const userToken = await UserService.forgetPassWord(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: data,
+      userToken: userToken,
       message: 'Mail has sent to the recovery email'
     });
   } catch (error) {
