@@ -48,3 +48,97 @@ info: ::ffff:127.0.0.1 - - [29/Jun/2023:02:26:28 +0000] "POST /api/v1/users/logi
 
 info: ::ffff:127.0.0.1 - - [29/Jun/2023:02:26:33 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [29/Jun/2023:04:18:04 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jun/2023:04:18:04 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jun/2023:04:18:04 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 14569 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jun/2023:04:18:04 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 150945 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jun/2023:04:18:04 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 246440 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jun/2023:04:18:04 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1435746 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jun/2023:04:18:04 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:39:15 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:39:15 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:39:16 +0000] "POST /api/v1/users/login HTTP/1.1" 202 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:39:16 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:39:21 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:42:00 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:42:00 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:42:00 +0000] "POST /api/v1/users/login HTTP/1.1" 202 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:42:00 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:42:05 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:46:59 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:46:59 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:46:59 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:46:59 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:09:47:04 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:04:14 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:04:14 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:04:14 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:04:14 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:04:19 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:04:19 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:04:19 +0000] "POST /api/v1/notes HTTP/1.1" 201 287 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:05:37 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:05:37 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:05:37 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:05:37 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:05:42 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:05:42 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:05:42 +0000] "POST /api/v1/notes HTTP/1.1" 201 283 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [29/Jun/2023:10:07:33 +0000] "POST /api/v1/users/login HTTP/1.1" 202 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Jun/2023:10:08:26 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Jun/2023:10:08:42 +0000] "POST /api/v1/notes HTTP/1.1" 201 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Jun/2023:10:12:39 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "PostmanRuntime/7.32.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:13:02 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:13:02 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:13:02 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:13:02 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:13:07 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:13:07 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:13:07 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
