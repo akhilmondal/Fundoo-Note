@@ -958,3 +958,49 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-27T0
 info: Connected to the database. {"timestamp":"2023-06-27T03:07:25.672Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T05:00:58.283Z"}
 info: Connected to the database. {"timestamp":"2023-06-28T05:00:58.307Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T05:08:25.659Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T05:08:25.677Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T14:43:24.396Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T14:43:24.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T14:44:48.439Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T14:44:48.457Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T14:45:26.728Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T14:45:26.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T14:46:10.484Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T14:46:10.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T14:46:18.963Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T14:46:18.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T14:47:15.820Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T14:47:15.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T14:47:29.666Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T14:47:29.681Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-28T14:48:48.919Z"}
+info: Connected to the database. {"timestamp":"2023-06-28T14:48:48.936Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-29T02:21:24.879Z"}
+info: Connected to the database. {"timestamp":"2023-06-29T02:21:24.897Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:106:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 07:51:25 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:106:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.63,0.73,0.53],"uptime":1017.42},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19672091,"external":22065411,"heapTotal":124821504,"heapUsed":97713720,"rss":183881728},"pid":7153,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:106:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-06-29T02:21:25.139Z","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":106,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-29T02:22:00.909Z"}
+info: Connected to the database. {"timestamp":"2023-06-29T02:22:00.931Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-29T02:24:33.790Z"}
+info: Connected to the database. {"timestamp":"2023-06-29T02:24:33.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-29T02:25:39.933Z"}
+info: Connected to the database. {"timestamp":"2023-06-29T02:25:39.958Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:106:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 07:55:40 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:106:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[1.18,1.04,0.72],"uptime":1272.5},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18879324,"external":21272176,"heapTotal":123875328,"heapUsed":90700344,"rss":180379648},"pid":7537,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:106:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-06-29T02:25:40.224Z","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":106,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-29T02:26:28.646Z"}
+info: Connected to the database. {"timestamp":"2023-06-29T02:26:28.668Z"}
