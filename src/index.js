@@ -29,7 +29,7 @@ app.use(morgan('combined', { stream: logStream }));
 
 database();
 
-app.use(`/api/${api_version}`, routes());
+app.use(`/api/${api_version}`, routes()); // To go for the requested routes './routes/index.js'
 app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);
