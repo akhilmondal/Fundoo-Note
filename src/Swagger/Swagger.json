@@ -1,74 +1,109 @@
 {
-    "swagger": "2.0",
-    "info": {
-      "version": "V1",
-      "title": "Fundoo Note",
-      "description": "This Project Fundoo Note have all the APIs of Users ANd Notes."
-    },
-    "host": "localhost:3000",
-    "basePath": "/api/v1/",
-    "tags": [
-      {
-        "name": "API's for User and Notes Using express CLI",
-        "description": "Creating APIs for user and notes."
-      }
-    ],
-    "schemes": ["http"],
-    "consumes": ["application/json"],
-    "produces": ["application/json"],
-    "paths": {
-      "/users": {
-        "post": {
-          "tags": ["User"],
-          "description": "Add new User to the Collection",
-          "parameters": [
-            {
-              "name": "Register new User",
-              "in": "body",
-              "description": "User Registration Format",
-              "schema": {
-                "$ref": "#/definitions/User"
-              }
+  "swagger": "2.0",
+  "info": {
+    "version": "V1",
+    "title": "Fundoo Note",
+    "description": "This Project Fundoo Note have all the APIs of Users ANd Notes."
+  },
+  "host": "localhost:3000",
+  "basePath": "/api/v1/",
+  "tags": [
+    {
+      "name": "API's for User and Notes Using express CLI",
+      "description": "Creating APIs for user and notes."
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/users": {
+      "post": {
+        "tags": ["User"],
+        "description": "Add new User to the Collection",
+        "parameters": [
+          {
+            "name": "Register new User",
+            "in": "body",
+            "description": "User Registration Format",
+            "schema": {
+              "$ref": "#/definitions/User"
             }
-          ],
-          "produces": ["application/json"],
-          "responses": {
-            "201": {
-              "description": "New user registered succesfully"
-            },
-            "500": {
-              "description": "Internal server error"
-            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "201": {
+            "description": "New user registered succesfully"
+          },
+          "500": {
+            "description": "Internal server error"
           }
         }
       }
     },
-    "securityDefinitions": {
-      "JWT": {
-        "type": "apiKey",
-        "name": "Authorization",
-        "in": "header"
-      }
-    },
-  
-    "definitions": {
-      "User": {
-        "type": "object",
-        "properties": {
-          "firstName": {
-            "type": "string"
+    "/users/login": {
+      "post": {
+        "tags": ["User"],
+        "description": "Login the Registered User",
+        "parameters": [
+          {
+            "name": "User Login",
+            "in": "body",
+            "description": "Body Format for User login",
+            "schema": {
+              "$ref": "#/definitions/login"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "202": {
+            "description": "User logged in successfully"
           },
-          "lastName": {
-            "type": "string"
-          },
-          "emailId": {
-            "type": "string"
-          },
-          "passWord": {
-            "type": "string"
+          "500": {
+            "description": "Internal server error"
           }
         }
       }
     }
+  },
+  "securityDefinitions": {
+    "JWT": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+
+  "definitions": {
+    "User": {
+      "type": "object",
+      "properties": {
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "emailId": {
+          "type": "string"
+        },
+        "passWord": {
+          "type": "string"
+        }
+      }
+    },
+    "login": {
+      "type": "object",
+      "properties": {
+        "emailId": {
+          "type": "string"
+        },
+        "passWord": {
+          "type": "string"
+        }
+      }
+    }
   }
-  
+}
