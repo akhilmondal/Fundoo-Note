@@ -40,7 +40,7 @@ export const userAuthForPassWordReset = async (req, res, next) => {
         message: 'Authorization token is required.'
       };
     const user = await jwt.verify(bearerToken, process.env.PASSWORD_RESET_KEY);
-    req.body.userId = user._id;
+    req.body._id = user._id;
     next();
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
