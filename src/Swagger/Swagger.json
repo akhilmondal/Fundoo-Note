@@ -66,13 +66,62 @@
           }
         }
       }
-    }
-  },
-  "securityDefinitions": {
-    "JWT": {
-      "type": "apiKey",
-      "name": "Authorization",
-      "in": "header"
+    },
+    "/users/forgetpass": {
+      "put": {
+        "tags": ["User"],
+        "description": "Request for forget password",
+        "parameters": [
+          {
+            "name": "Forget Password",
+            "in": "body",
+            "description": "Body Format for forget password",
+            "schema": {
+              "$ref": "#/definitions/forgetpassword"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Mail has sent to the recovery email"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/users/resetpassword/{token}": {
+      "put": {
+        "tags": ["User"],
+        "description": "Reset password",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "Reset Password",
+            "in": "body",
+            "description": "Update/Reset password",
+            "schema": {
+              "$ref": "#/definitions/resetpassword"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Password reseted successfully."
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
     }
   },
 
@@ -104,6 +153,22 @@
           "type": "string"
         }
       }
-    }
+    },
+    "forgetpassword": {
+      "type": "object",
+      "properties": {
+        "emailId": {
+          "type": "string"
+        }
+      }
+    },
+    "resetpassword": {
+        "type": "object",
+        "properties": {
+          "passWord": {
+            "type": "string"
+          }
+        }
+      }
   }
 }

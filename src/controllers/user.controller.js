@@ -57,7 +57,7 @@ export const forgetPassWord = async (req, res, next) => {
 //Controller to reset password of the user
 export const resetPassWord = async (req, res, next) => {
   try {
-    const data = await UserService.resetPassWord(req.params._userId, req.body);
+    const data = await UserService.resetPassWord(req.body);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
