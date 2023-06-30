@@ -1396,3 +1396,82 @@ info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "PUT /api/v1/notes/trash
 
 info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "DELETE /api/v1/notes/649da6ca4e45d45c25a21b75 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:33:23 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:33:28 +0000] "POST /api/v1/users HTTP/1.1" 500 96 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:48:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Fri Jun 30 2023 07:03:28 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:48:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.87,0.61,0.36],"uptime":478.6},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19346637,"external":23084004,"heapTotal":203866112,"heapUsed":174674080,"rss":268423168},"pid":5197,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:48:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":48,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:33 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:33 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:33 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:33 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:33 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:33 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:33 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:33 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:33 +0000] "GET /api/v1/notes/649e31654299f51551718d48 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:34 +0000] "PUT /api/v1/notes/649e31654299f51551718d48 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:34 +0000] "PUT /api/v1/notes/archive/649e31654299f51551718d48 HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:34 +0000] "PUT /api/v1/notes/trash/649e31654299f51551718d48 HTTP/1.1" 200 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jun/2023:01:35:34 +0000] "DELETE /api/v1/notes/649e31654299f51551718d48 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [30/Jun/2023:01:56:32 +0000] "GET /api-docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:56:32 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:56:34 +0000] "GET /api-docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:56:38 +0000] "GET /api-docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:56:55 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:56:55 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:56:55 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:56:55 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 3238 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:56:55 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1435746 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:56:55 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:57:55 +0000] "POST /api/v1/users HTTP/1.1" 400 75 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:59:00 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:59:18 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:01:59:58 +0000] "POST /api/v1/users HTTP/1.1" 201 335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:02:09:50 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:02:09:50 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:02:09:50 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:02:09:50 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:02:09:50 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 3259 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:02:09:50 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+

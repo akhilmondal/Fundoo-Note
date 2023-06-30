@@ -722,3 +722,50 @@ AssertionError: expected 400 to equal 200
     at Server.emit (node:events:511:28)
     at emitCloseNT (node:net:2223:8)
     at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 21:11:38 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:264:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.5,0.54,0.48],"uptime":49029.69},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18922375,"external":22659234,"heapTotal":205774848,"heapUsed":172253048,"rss":267825152},"pid":23401,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:264:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-06-29T15:41:38.809Z","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":264,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at processTimers (node:internal/timers:514:7) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-06-30T01:33:28.313Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:48:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Fri Jun 30 2023 07:03:28 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:48:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.87,0.61,0.36],"uptime":478.6},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19338421,"external":23075748,"heapTotal":203603968,"heapUsed":174362256,"rss":268333056},"pid":5197,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:48:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-06-30T01:33:28.326Z","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":48,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: User is already Present. 
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/services/user.service.js:12:11)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-30T01:59:00.693Z"}
+error: 
+    status - 500 
+    message - Error: User is already Present. 
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/services/user.service.js:12:11)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-30T01:59:18.691Z"}

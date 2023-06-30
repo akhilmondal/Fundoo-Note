@@ -6,7 +6,6 @@ import app from '../../src/index';
 
 // Declaring variables
 let userLoginToken;
-let userResetToken;
 let userId;
 
 describe('User APIs Test', () => {
@@ -220,7 +219,7 @@ describe('User APIs Test', () => {
     });
   });
 
-  //Delete note from he collection
+  //Delete note from the collection
   describe(`DELETE /note/:_id`, () => {
     it('Delete note from the collection should return 200', (done) => {
       request(app)
