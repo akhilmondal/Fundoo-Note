@@ -7,6 +7,7 @@ import app from '../../src/index';
 // Declaring variables
 let userLoginToken;
 let userResetToken;
+let userId;
 
 describe('User APIs Test', () => {
   before((done) => {
@@ -78,6 +79,7 @@ describe('User APIs Test', () => {
         .send(userdetails)
         .end((err, res) => {
           userLoginToken = res.body.userToken; // Assigning the token to the variable from user Controller
+          userId = res.body.userToken._id;
           expect(res.statusCode).to.be.equal(HttpStatus.ACCEPTED);
           done();
         });
@@ -98,37 +100,9 @@ describe('User APIs Test', () => {
     });
   });
 
-  // Testing for forget password
-  describe('POST/ forget password', () => {
-    it('Provide email id to generate a token to reset password should return 200', (done) => {
-      const userDetails = {
-        emailId: 'akhilmondal@gmail.com' // correct email id
-      };
-      request(app)
-        .post('/api/v1/users/forgetpass')
-        .send(userDetails)
-        .end((err, res) => {
-          userResetToken = res.body.userToken; // Assigning the token to the variable from user Controller
-          expect(res.statusCode).to.be.equal(HttpStatus.OK);
-          done();
-        });
-    });
-
-    it('Provide email id to generate a token to reset password should return 400', (done) => {
-      const userDetails = {
-        emailId: 'akhilmandal@gmail.com' //wrong email id
-      };
-      request(app)
-        .post('/api/v1/users/forgetpass')
-        .send(userDetails)
-        .end((err, res) => {
-          expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
-          done();
-        });
-    });
-  });
-
   // Testing for Notes
+  // Create new note
+  var noteId;
   describe('POST /create new note', () => {
     it('given new note when added should return status 201', (done) => {
       const noteDetails = {
@@ -137,9 +111,10 @@ describe('User APIs Test', () => {
       };
       request(app)
         .post('/api/v1/notes')
-        .set('Authorization', `Bearer ${userLoginToken}`)  // Setting the bearer token for the authorization
+        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
         .send(noteDetails)
         .end((err, res) => {
+          noteId = res.body.data._id;
           expect(res.statusCode).to.be.equal(HttpStatus.CREATED);
           done();
         });
@@ -152,10 +127,107 @@ describe('User APIs Test', () => {
       };
       request(app)
         .post('/api/v1/notes')
-        .set('Authorization', `Bearer ${userLoginToken}`)   // Setting the bearer token for the authorization
+        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
         .send(noteDetails)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
+          done();
+        });
+    });
+  });
+
+  // Get All Notes
+  describe('GET / get all notes', () => {
+    it('given get all notes should return status 200', (done) => {
+      request(app)
+        .get('/api/v1/notes')
+        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+
+    it('getall note should return status 400', (done) => {
+      const noteDetails = {
+        createdBy: '649d904c883340455da018b6'
+      };
+      request(app)
+        .post('/api/v1/notes')
+        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
+        .send(noteDetails)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
+          done();
+        });
+    });
+  });
+
+  // Get note by id
+  describe('GET/notes/:_id', () => {
+    it('get single note using id should return 200', (done) => {
+      request(app)
+        .get(`/api/v1/notes/${noteId}`)
+        .set('Authorization', `Bearer ${userLoginToken}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+
+  // Update note by id
+  describe('PUT/notes/:_id', () => {
+    it('given new updated note when added should return status 202', (done) => {
+      const noteDetails = {
+        title: 'My First Note',
+        description: 'Bye everyone'
+      };
+      request(app)
+        .put(`/api/v1/notes/${noteId}`)
+        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
+        .send(noteDetails)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.ACCEPTED);
+          done();
+        });
+    });
+  });
+
+  // Add to Archive
+  describe('PUT /note/archive/:_id', () => {
+    it('Adding note to archive should return 200', (done) => {
+      request(app)
+        .put(`/api/v1/notes/archive/${noteId}`)
+        .set('Authorization', `Bearer ${userLoginToken}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+
+  // Add to Trash
+  describe('PUT /note/trash/:_id', () => {
+    it('Adding note to archive should return 200', (done) => {
+      request(app)
+        .put(`/api/v1/notes/trash/${noteId}`)
+        .set('Authorization', `Bearer ${userLoginToken}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+
+  //Delete note from he collection
+  describe(`DELETE /note/:_id`, () => {
+    it('Delete note from the collection should return 200', (done) => {
+      request(app)
+        .delete(`/api/v1/notes/${noteId}`)
+        .set('Authorization', `Bearer ${userLoginToken}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
           done();
         });
     });

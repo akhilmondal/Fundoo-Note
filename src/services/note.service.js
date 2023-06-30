@@ -34,7 +34,7 @@ export const updateNote = async (_id, body) => {
 };
 
 //Delete Note by id
-export const deleteNote = async (id, body) => {
+export const deleteNote = async (_id, body) => {
   await Note.findByIdAndDelete({ _id: _id, createdBy: body.createdBy });
   return '';
 };
@@ -42,7 +42,6 @@ export const deleteNote = async (id, body) => {
 //Archive note by id
 export const archiveNote = async (_id, body) => {
   const data = await Note.findById({ _id: _id, createdBy: body.createdBy });
-  console.log(data);
   let archiveStatus;
   if (data) {
     archiveStatus = data.archive == false ? true : false;
