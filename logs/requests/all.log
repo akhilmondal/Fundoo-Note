@@ -757,3 +757,642 @@ info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:13:07 +0000] "POST /api/v1/notes HTTP
 
 info: ::ffff:127.0.0.1 - - [29/Jun/2023:10:13:07 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [29/Jun/2023:14:06:40 +0000] "POST /api/v1/notes HTTP/1.1" 500 46 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Jun/2023:14:08:12 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "PostmanRuntime/7.32.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:27:05 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:27:05 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:27:05 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:27:05 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:27:10 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:27:10 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:27:10 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:27:10 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal undefined
+AssertionError: expected 200 to equal undefined
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:177:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 19:57:10 GMT+0530 (India Standard Time)","error":{"actual":200,"message":"expected 200 to equal undefined","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal undefined\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:177:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[1.14,0.59,0.3],"uptime":44562.87},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":20261151,"external":23998050,"heapTotal":203608064,"heapUsed":180769592,"rss":268599296},"pid":18369,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 200 to equal undefined\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:177:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":177,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:28:49 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:28:49 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:28:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:28:49 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:28:54 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:28:54 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:28:54 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:28:54 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal undefined
+AssertionError: expected 200 to equal undefined
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:177:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 19:58:54 GMT+0530 (India Standard Time)","error":{"actual":200,"message":"expected 200 to equal undefined","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal undefined\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:177:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.95,0.59,0.32],"uptime":44667.15},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18985124,"external":22722023,"heapTotal":204988416,"heapUsed":172771016,"rss":271966208},"pid":18521,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 200 to equal undefined\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:177:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":177,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:30:51 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:30:51 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:30:51 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:30:51 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:30:56 +0000] "POST /api/v1/users/forgetpass HTTP/1.1" 400 51 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:30:56 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:30:56 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:30:56 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal undefined
+AssertionError: expected 200 to equal undefined
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:177:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 20:00:56 GMT+0530 (India Standard Time)","error":{"actual":200,"message":"expected 200 to equal undefined","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal undefined\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:177:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.63,0.55,0.33],"uptime":44788.9},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":20368819,"external":24105718,"heapTotal":203878400,"heapUsed":181824560,"rss":270839808},"pid":18811,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 200 to equal undefined\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:177:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":177,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:33:23 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:33:23 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:33:24 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:33:24 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:33:24 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:33:24 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:33:24 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal undefined
+AssertionError: expected 200 to equal undefined
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:178:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 20:03:24 GMT+0530 (India Standard Time)","error":{"actual":200,"message":"expected 200 to equal undefined","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal undefined\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:178:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.62,0.52,0.35],"uptime":44934.96},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":20180035,"external":23916934,"heapTotal":203489280,"heapUsed":178004232,"rss":268517376},"pid":18952,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 200 to equal undefined\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:178:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":178,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:34:03 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:34:03 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:34:03 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:34:03 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:34:03 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:34:03 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:34:03 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:34:03 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:40:05 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:40:05 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:40:06 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:40:06 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:40:06 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:40:06 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:40:06 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:40:06 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [29/Jun/2023:14:53:02 +0000] "POST /api/v1/users/login HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:54:20 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:54:20 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:54:20 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:54:20 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:54:20 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:54:20 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:54:20 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:54:20 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:20 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:20 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:20 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:20 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:20 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:20 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:20 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:20 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:53 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:53 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:53 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:53 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:53 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:53 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:53 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:53 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:14:57:53 +0000] "GET /api/v1/notes/649d9bf18346414f1e2a9b9d HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "GET /api/v1/notes/649d9dce23e84b4fcdad9628 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:05:50 +0000] "POST /api/v1/notes/649d9dce23e84b4fcdad9628 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 202
+AssertionError: expected 404 to equal 202
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:225:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 20:35:50 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":202,"message":"expected 404 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:225:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.87,0.6,0.46],"uptime":46881.13},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":20274866,"external":24011765,"heapTotal":204406784,"heapUsed":181403944,"rss":265883648},"pid":20429,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:225:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":225,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "GET /api/v1/notes/649d9e0723923a503627699a HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:06:47 +0000] "POST /api/v1/notes/649d9e0723923a503627699a HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 202
+AssertionError: expected 404 to equal 202
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:226:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 20:36:47 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":202,"message":"expected 404 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:226:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.89,0.65,0.48],"uptime":46938.31},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":20412562,"external":24149461,"heapTotal":204021760,"heapUsed":180057144,"rss":266493952},"pid":20534,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:226:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":226,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "GET /api/v1/notes/649d9e73fe801a50a03c8366 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:08:35 +0000] "POST /api/v1/notes/649d9e73fe801a50a03c8366 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 202
+AssertionError: expected 404 to equal 202
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:226:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 20:38:35 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":202,"message":"expected 404 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:226:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.79,0.63,0.48],"uptime":47046.22},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":20351923,"external":24088822,"heapTotal":204406784,"heapUsed":181658368,"rss":269647872},"pid":20640,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:226:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":226,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::1 - - [29/Jun/2023:15:13:12 +0000] "POST /api/v1/users/login HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Jun/2023:15:14:33 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Jun/2023:15:15:25 +0000] "PUT /api/v1/notes/649d9fd98993a3513e89abeb HTTP/1.1" 202 302 "-" "PostmanRuntime/7.32.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "GET /api/v1/notes/649da0aa8d3a105378b4b510 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:18:02 +0000] "POST /api/v1/notes/649da0aa8d3a105378b4b510 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 202
+AssertionError: expected 404 to equal 202
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:226:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 20:48:02 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":202,"message":"expected 404 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:226:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.31,0.32,0.37],"uptime":47613.72},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":20371991,"external":24108890,"heapTotal":203882496,"heapUsed":181586848,"rss":268591104},"pid":21368,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:226:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":226,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "GET /api/v1/notes/649da12566a43053dbef7ee8 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:20:05 +0000] "PUT /api/v1/notes/649da12566a43053dbef7ee8 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [29/Jun/2023:15:24:06 +0000] "PUT /api/v1/notes/archive/649d9fd98993a3513e89abeb HTTP/1.1" 200 302 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Jun/2023:15:25:16 +0000] "PUT /api/v1/notes/archive/649d9fd98993a3513e89abeb HTTP/1.1" 200 303 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Jun/2023:15:25:17 +0000] "PUT /api/v1/notes/archive/649d9fd98993a3513e89abeb HTTP/1.1" 200 302 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [29/Jun/2023:15:25:19 +0000] "PUT /api/v1/notes/archive/649d9fd98993a3513e89abeb HTTP/1.1" 200 303 "-" "PostmanRuntime/7.32.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "GET /api/v1/notes/649da27ea95c925617b83944 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "PUT /api/v1/notes/649da27ea95c925617b83944 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:25:50 +0000] "PUT /api/v1/notes/archive/undefined HTTP/1.1" 400 182 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:239:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 20:55:50 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:239:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.6,0.55,0.45],"uptime":48081.07},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19981734,"external":23718633,"heapTotal":203620352,"heapUsed":181972808,"rss":267993088},"pid":22039,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:239:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":239,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "GET /api/v1/notes/649da3b905cb8a56b9ee5350 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "PUT /api/v1/notes/649da3b905cb8a56b9ee5350 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:31:05 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:238:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 21:01:05 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:238:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.37,0.41,0.41],"uptime":48396.62},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19223615,"external":22960514,"heapTotal":205250560,"heapUsed":171277624,"rss":269828096},"pid":22201,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:238:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":238,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "GET /api/v1/notes/649da4164c640e5737a36f07 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "PUT /api/v1/notes/649da4164c640e5737a36f07 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:32:38 +0000] "PUT /api/v1/notes/archive/undefined HTTP/1.1" 400 182 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:242:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 21:02:38 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:242:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.96,0.58,0.47],"uptime":48489.12},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19674209,"external":23411108,"heapTotal":203763712,"heapUsed":179525824,"rss":266133504},"pid":22327,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:242:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":242,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:37 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "GET /api/v1/notes/649da4520e700a57a851f472 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "PUT /api/v1/notes/649da4520e700a57a851f472 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:33:38 +0000] "PUT /api/v1/notes/archive/undefined HTTP/1.1" 400 182 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:242:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 21:03:38 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:242:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.72,0.59,0.48],"uptime":48549.06},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":20283481,"external":24020380,"heapTotal":204410880,"heapUsed":181888752,"rss":269598720},"pid":22440,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:242:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":242,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "GET /api/v1/notes/649da47e1eabc35806705d34 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "PUT /api/v1/notes/649da47e1eabc35806705d34 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:34:22 +0000] "PUT /api/v1/notes/archive/649da47e1eabc35806705d34 HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "GET /api/v1/notes/649da4c20457cb58638c25e8 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "PUT /api/v1/notes/649da4c20457cb58638c25e8 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:35:30 +0000] "PUT /api/v1/notes/archive/649da4c20457cb58638c25e8 HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "GET /api/v1/notes/649da50107971f58c3cc941a HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "PUT /api/v1/notes/649da50107971f58c3cc941a HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:36:33 +0000] "PUT /api/v1/notes/archive/649da50107971f58c3cc941a HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "GET /api/v1/notes/649da555e03d5d59267cc914 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "PUT /api/v1/notes/649da555e03d5d59267cc914 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "PUT /api/v1/notes/archive/649da555e03d5d59267cc914 HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:37:57 +0000] "PUT /api/v1/notes/trash/649da555e03d5d59267cc914 HTTP/1.1" 200 290 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [29/Jun/2023:15:38:32 +0000] "PUT /api/v1/notes/trash/649d9fd98993a3513e89abeb HTTP/1.1" 200 301 "-" "PostmanRuntime/7.32.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "GET /api/v1/notes/649da632bdce9b5b691ea1f6 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "PUT /api/v1/notes/649da632bdce9b5b691ea1f6 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "PUT /api/v1/notes/archive/649da632bdce9b5b691ea1f6 HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "PUT /api/v1/notes/trash/649da632bdce9b5b691ea1f6 HTTP/1.1" 200 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:41:38 +0000] "DELETE /api/v1/notes/649da632bdce9b5b691ea1f6 HTTP/1.1" 400 59 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:264:40)
+    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (node:events:625:28)
+    at Server.emit (node:events:511:28)
+    at emitCloseNT (node:net:2223:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 29 2023 21:11:38 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:264:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0.5,0.54,0.48],"uptime":49029.69},"process":{"argv":["/usr/bin/node","/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18930591,"external":22667490,"heapTotal":205774848,"heapUsed":172320456,"rss":267825152},"pid":23401,"uid":1000,"version":"v20.3.1"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js:264:40)\n    at Test.assert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (node:events:625:28)\n    at Server.emit (node:events:511:28)\n    at emitCloseNT (node:net:2223:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/tests/integration/user.test.js","function":null,"line":264,"method":null,"native":false},{"column":6,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":625,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":511,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2223,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:04 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "GET /api/v1/notes/649da689503fa35bce026561 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "PUT /api/v1/notes/649da689503fa35bce026561 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "PUT /api/v1/notes/archive/649da689503fa35bce026561 HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "PUT /api/v1/notes/trash/649da689503fa35bce026561 HTTP/1.1" 200 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:43:05 +0000] "DELETE /api/v1/notes/649da689503fa35bce026561 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "POST /api/v1/users HTTP/1.1" 400 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "POST /api/v1/notes HTTP/1.1" 400 93 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "GET /api/v1/notes HTTP/1.1" 200 301 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "POST /api/v1/notes HTTP/1.1" 400 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "GET /api/v1/notes/649da6ca4e45d45c25a21b75 HTTP/1.1" 200 294 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "PUT /api/v1/notes/649da6ca4e45d45c25a21b75 HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "PUT /api/v1/notes/archive/649da6ca4e45d45c25a21b75 HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "PUT /api/v1/notes/trash/649da6ca4e45d45c25a21b75 HTTP/1.1" 200 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Jun/2023:15:44:10 +0000] "DELETE /api/v1/notes/649da6ca4e45d45c25a21b75 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
