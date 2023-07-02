@@ -120,8 +120,98 @@
           "500": {
             "description": "Internal server error"
           }
-        }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
       }
+    },
+    "/notes": {
+      "post": {
+        "tags": ["Notes"],
+        "description": "Create a new note",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "create note",
+            "in": "body",
+            "description": "create note",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Note is created successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      },
+      "get": {
+        "tags": ["Notes"],
+        "description": "Get all notes",
+        "produces": [],
+        "responses": {
+          "201": {
+            "description": "Note fetched successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/notes/{_id}": {
+      "get": {
+        "tags": ["Notes"],
+        "description": "Get a single note using id",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note is fetched successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    }
+  },
+
+  "securityDefinitions": {
+    "JWT": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
     }
   },
 
@@ -163,12 +253,23 @@
       }
     },
     "resetpassword": {
-        "type": "object",
-        "properties": {
-          "passWord": {
-            "type": "string"
-          }
+      "type": "object",
+      "properties": {
+        "passWord": {
+          "type": "string"
         }
       }
+    },
+    "Note": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    }
   }
 }

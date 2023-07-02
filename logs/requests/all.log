@@ -1733,3 +1733,607 @@ info: ::1 - - [30/Jun/2023:09:29:29 +0000] "PUT /api/v1/users/forgetpass HTTP/1.
 
 info: ::1 - - [30/Jun/2023:09:29:53 +0000] "PUT /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElkIjoiYWtoaWxtYW5kYWxmYW1pbHlAb3V0bG9vay5jb20iLCJfaWQiOiI2NDllMzcxZWI2ZDllNzE3ZjAyNTg2OWIiLCJpYXQiOjE2ODgxMTczNjIsImV4cCI6MTY4ODEyODE2Mn0.duCmJH9-dCHAQGgSWGTJ-2h5IiOpMwVN3RbK9-XRNc4 HTTP/1.1" 202 337 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 
+info: ::1 - - [30/Jun/2023:09:34:46 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:34:46 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:34:46 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:34:46 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:34:46 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6096 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:34:46 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:35:37 +0000] "PUT /api/v1/users/forgetpass HTTP/1.1" 200 303 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:36:02 +0000] "PUT /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElkIjoiYWtoaWxtYW5kYWxmYW1pbHlAb3V0bG9vay5jb20iLCJfaWQiOiI2NDllMzcxZWI2ZDllNzE3ZjAyNTg2OWIiLCJpYXQiOjE2ODgxMTc3MzIsImV4cCI6MTY4ODEyODUzMn0.3ueIlP7ygkIx0XkLWbN8RNKsPvuW68xoHe1rrF5nM4M HTTP/1.1" 202 337 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:47:55 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:47:55 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:47:55 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:47:55 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7130 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:47:55 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:47:55 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:48:30 +0000] "POST /api/v1/users/login HTTP/1.1" 202 294 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:51:55 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:51:55 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:51:55 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:51:55 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:51:55 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7281 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:51:55 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:52:43 +0000] "POST /api/v1/users/login HTTP/1.1" 202 294 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:53:03 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:09:55:09 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:06:15 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:07:04 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:16:23 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:16:24 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:16:24 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:16:24 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:16:24 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7292 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:16:24 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:16:58 +0000] "POST /api/v1/users/login HTTP/1.1" 202 294 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:17:15 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:18:49 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Jun/2023:10:23:03 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:23:03 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:23:03 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:23:03 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:23:03 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7259 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:23:04 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:23:15 +0000] "POST /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:31:54 +0000] "PUT /api/v1/users/forgetpass HTTP/1.1" 200 303 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:10:32:18 +0000] "PUT /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElkIjoiYWtoaWxtYW5kYWxmYW1pbHlAb3V0bG9vay5jb20iLCJfaWQiOiI2NDllMzcxZWI2ZDllNzE3ZjAyNTg2OWIiLCJpYXQiOjE2ODgxMjExMDksImV4cCI6MTY4ODEzMTkwOX0.LKn6g8ji7o9RKfwv3gB_MCMhXFUs0z6pFBClQztPQ9o HTTP/1.1" 202 337 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:11:37:37 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:11:37:37 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:11:37:37 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:11:37:37 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:11:37:37 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7239 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:11:37:38 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:11:38:05 +0000] "POST /api/v1/users/login HTTP/1.1" 202 294 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:11:40:00 +0000] "POST /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Jun/2023:11:41:26 +0000] "POST /api/v1/notes HTTP/1.1" 201 279 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:942:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)
+    at writeOrBuffer (node:internal/streams/writable:399:12)
+    at _write (node:internal/streams/writable:340:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:344:10)
+    at Console.log (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:523:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10) {"date":"Fri Jun 30 2023 17:45:47 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.41,0.82,0.74],"uptime":39015.98},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18701663,"external":22881341,"heapTotal":192020480,"heapUsed":171065096,"rss":262090752},"pid":30656,"uid":1000,"version":"v20.3.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (node:fs:942:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)\n    at writeOrBuffer (node:internal/streams/writable:399:12)\n    at _write (node:internal/streams/writable:340:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:344:10)\n    at Console.log (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Console.Writable.write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at DerivedLogger.ondata (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:523:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)\n    at readableAddChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)\n    at DerivedLogger.Readable.push (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)","trace":[{"column":3,"file":"node:fs","function":"writeSync","line":942,"method":null,"native":false},{"column":3,"file":"node:internal/fs/sync_write_stream","function":"SyncWriteStream._write","line":26,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":399,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":340,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"SyncWriteStream.Writable.write","line":344,"method":"write","native":false},{"column":23,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":523,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false},{"column":11,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"readableAddChunk","line":262,"method":null,"native":false},{"column":10,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.Readable.push","line":228,"method":"push","native":false}]}
+info: ::1 - - [02/Jul/2023:01:31:22 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:22 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7959 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:22 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 150945 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:22 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 246440 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:22 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1435746 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:23 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:34 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:34 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:34 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:34 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:34 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:34 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:37 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:37 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:37 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:37 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:37 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:37 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:38 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:38 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:38 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:38 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:38 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:31:38 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:34:20 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:34:20 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:34:20 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:34:20 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:34:20 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7956 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:34:20 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:39:34 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:39:34 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:39:34 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:39:34 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:39:34 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8110 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:39:34 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:04 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:04 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:04 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:04 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8108 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:04 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:04 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:52 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:52 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:52 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:52 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:52 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7392 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:42:53 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:44:16 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:44:16 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:44:16 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:44:16 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:44:16 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7389 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:44:16 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:41 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:41 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:41 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:41 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:41 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8086 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:41 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:42 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:42 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:42 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:42 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:42 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:42 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:43 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:43 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:43 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:43 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:43 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:43 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:44 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:46:45 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:47:00 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:47:00 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:47:00 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:47:00 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:47:00 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:47:00 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:48:09 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:48:09 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:48:09 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:48:09 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:48:09 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8148 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:48:09 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:48:50 +0000] "POST /api/v1/users/login HTTP/1.1" 202 294 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:51:50 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:51:50 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:51:50 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:51:50 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:51:50 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7847 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:51:50 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:52:15 +0000] "GET /api/v1/notes HTTP/1.1" 200 523 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:54:11 +0000] "POST /api/v1/notes HTTP/1.1" 201 279 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:01:54:16 +0000] "GET /api/v1/notes HTTP/1.1" 200 745 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+error: uncaughtException: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6118
+SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6118
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Module.require (node:internal/modules/cjs/loader:1139:19)
+    at require (node:internal/modules/helpers:121:18)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14)
+    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)
+    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14) {"date":"Sun Jul 02 2023 07:29:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.53,0.51,0.46],"uptime":2173.53},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18745886,"external":22906017,"heapTotal":192282624,"heapUsed":170911864,"rss":263028736},"pid":7438,"uid":1000,"version":"v20.3.1"},"stack":"SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6118\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Module.require (node:internal/modules/cjs/loader:1139:19)\n    at require (node:internal/modules/helpers:121:18)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)\n    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)\n    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1326,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1139,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":121,"method":null,"native":false},{"column":25,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false},{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1311,"method":".js","native":false},{"column":7,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false}]}
+error: uncaughtException: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6118
+SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6118
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Module.require (node:internal/modules/cjs/loader:1139:19)
+    at require (node:internal/modules/helpers:121:18)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14)
+    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)
+    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14) {"date":"Sun Jul 02 2023 07:30:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.49,0.47,0.45],"uptime":2249.76},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18761172,"external":22921303,"heapTotal":192020480,"heapUsed":170736568,"rss":262529024},"pid":7606,"uid":1000,"version":"v20.3.1"},"stack":"SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6118\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Module.require (node:internal/modules/cjs/loader:1139:19)\n    at require (node:internal/modules/helpers:121:18)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)\n    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)\n    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1326,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1139,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":121,"method":null,"native":false},{"column":25,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false},{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1311,"method":".js","native":false},{"column":7,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false}]}
+error: uncaughtException: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6114
+SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6114
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Module.require (node:internal/modules/cjs/loader:1139:19)
+    at require (node:internal/modules/helpers:121:18)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14)
+    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)
+    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14) {"date":"Sun Jul 02 2023 07:32:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.29,0.42,0.44],"uptime":2325.27},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18667312,"external":22827443,"heapTotal":191496192,"heapUsed":171101336,"rss":262832128},"pid":7739,"uid":1000,"version":"v20.3.1"},"stack":"SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6114\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Module.require (node:internal/modules/cjs/loader:1139:19)\n    at require (node:internal/modules/helpers:121:18)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)\n    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)\n    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1326,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1139,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":121,"method":null,"native":false},{"column":25,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false},{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1311,"method":".js","native":false},{"column":7,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false}]}
+error: uncaughtException: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 5509
+SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 5509
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Module.require (node:internal/modules/cjs/loader:1139:19)
+    at require (node:internal/modules/helpers:121:18)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14)
+    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)
+    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14) {"date":"Sun Jul 02 2023 07:32:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.5,0.46,0.45],"uptime":2364.56},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18705508,"external":22865639,"heapTotal":191496192,"heapUsed":171093352,"rss":261963776},"pid":7982,"uid":1000,"version":"v20.3.1"},"stack":"SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 5509\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Module.require (node:internal/modules/cjs/loader:1139:19)\n    at require (node:internal/modules/helpers:121:18)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)\n    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)\n    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1326,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1139,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":121,"method":null,"native":false},{"column":25,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false},{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1311,"method":".js","native":false},{"column":7,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false}]}
+error: uncaughtException: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6118
+SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6118
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Module.require (node:internal/modules/cjs/loader:1139:19)
+    at require (node:internal/modules/helpers:121:18)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14)
+    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)
+    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14) {"date":"Sun Jul 02 2023 07:35:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.34,0.39,0.42],"uptime":2498.99},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18739850,"external":22899981,"heapTotal":192020480,"heapUsed":170905896,"rss":261865472},"pid":8212,"uid":1000,"version":"v20.3.1"},"stack":"SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6118\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Module.require (node:internal/modules/cjs/loader:1139:19)\n    at require (node:internal/modules/helpers:121:18)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)\n    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)\n    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1326,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1139,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":121,"method":null,"native":false},{"column":25,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false},{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1311,"method":".js","native":false},{"column":7,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false}]}
+info: ::1 - - [02/Jul/2023:02:07:16 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:07:16 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:07:16 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:07:16 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:07:16 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 7693 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:07:16 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+error: uncaughtException: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6172
+SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6172
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Module.require (node:internal/modules/cjs/loader:1139:19)
+    at require (node:internal/modules/helpers:121:18)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14)
+    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)
+    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1115:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:962:12)
+    at Function.runMain (node:internal/modules/run_main:83:12)
+    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1257:14) {"date":"Sun Jul 02 2023 07:37:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.76,0.48,0.45],"uptime":2671.98},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18675456,"external":22835587,"heapTotal":199090176,"heapUsed":169433776,"rss":268869632},"pid":8505,"uid":1000,"version":"v20.3.1"},"stack":"SyntaxError: /home/akhil/CFP238/Fundoo_Note/FundooNote/src/Swagger/Swagger.json: Expected ',' or '}' after property value in JSON at position 6172\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1326:39)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Module.require (node:internal/modules/cjs/loader:1139:19)\n    at require (node:internal/modules/helpers:121:18)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js:21:25)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)\n    at Module._compile (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)\n    at Object.newLoader [as .js] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1115:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:962:12)\n    at Function.runMain (node:internal/modules/run_main:83:12)\n    at Object.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1257:14)","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1326,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1139,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":121,"method":null,"native":false},{"column":25,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false},{"column":24,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1311,"method":".js","native":false},{"column":7,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1115,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":962,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":83,"method":"runMain","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1257,"method":"_compile","native":false}]}
+info: ::1 - - [02/Jul/2023:02:08:41 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:41 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:41 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:41 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:41 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8444 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:42 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:44 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:45 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:46 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:46 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:46 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:46 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:46 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:08:47 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:01 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:01 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:01 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:01 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:01 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:01 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:51 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:51 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:51 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:52 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:52 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8384 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:09:52 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:10:20 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:10:20 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:10:20 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:10:20 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:10:20 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8386 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:10:20 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:11:08 +0000] "POST /api/v1/users/login HTTP/1.1" 202 294 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:12:02 +0000] "GET /api/v1/notes/649eac096e9c766a6d4195da HTTP/1.1" 200 294 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:13:06 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:13:06 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:13:06 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:13:06 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:13:06 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jul/2023:02:13:06 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
