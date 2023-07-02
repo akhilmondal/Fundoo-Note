@@ -239,6 +239,86 @@
             "JWT": []
           }
         ]
+      },
+      "delete": {
+        "tags": ["Notes"],
+        "description": "Delete a note",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note is deleted succesfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/notes/archive/{_id}": {
+      "put": {
+        "tags": ["Notes"],
+        "description": "archive Notes",
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "description": "archive Notes"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Note is archived."
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/notes/trash/{id}": {
+      "put": {
+        "tags": ["Notes"],
+        "description": "Trash Notes",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "trash Notes"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": " Note is added to trash."
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
       }
     }
   },
