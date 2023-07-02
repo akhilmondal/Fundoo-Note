@@ -877,3 +877,116 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T0
 info: Connected to the database. {"timestamp":"2023-06-30T09:28:40.393Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T09:30:26.161Z"}
 info: Connected to the database. {"timestamp":"2023-06-30T09:30:26.206Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T09:34:41.720Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T09:34:41.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T09:40:47.232Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T09:40:47.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T09:42:10.173Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T09:42:10.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T09:46:05.031Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T09:46:05.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T09:47:43.702Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T09:47:43.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T09:51:53.411Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T09:51:53.458Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-06-30T09:53:03.568Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-06-30T09:55:09.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T10:05:16.806Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T10:05:16.834Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-06-30T10:06:15.092Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-06-30T10:07:04.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T10:16:20.007Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T10:16:20.035Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-06-30T10:17:15.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T10:22:42.492Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T10:22:42.532Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/jsonwebtoken/verify.js:53:17)
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/middlewares/auth.middleware.js:25:28)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/middlewares/auth.middleware.js:15:22)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:144:13)
+    at newNoteValidator (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/validators/note.validator.js:17:5)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:144:13) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-30T10:23:15.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T11:33:45.310Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T11:33:45.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T11:36:31.127Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T11:36:31.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T11:37:16.267Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T11:37:16.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T11:37:29.942Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T11:37:29.969Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/jsonwebtoken/verify.js:53:17)
+    at _callee$ (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/middlewares/auth.middleware.js:25:28)
+    at tryCatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/middlewares/auth.middleware.js:15:22)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:144:13)
+    at newNoteValidator (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/validators/note.validator.js:17:5)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:144:13) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-30T11:40:00.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T11:42:27.639Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T11:42:27.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T11:45:14.870Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T11:45:14.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-30T12:15:47.034Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T12:15:47.079Z"}
