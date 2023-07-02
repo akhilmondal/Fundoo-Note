@@ -203,6 +203,42 @@
             "JWT": []
           }
         ]
+      },
+      "put": {
+        "tags": ["Notes"],
+        "description": "Update a note for User",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "update note",
+            "in": "body",
+            "description": "update note",
+            "required": false,
+            "type": "string",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        ],
+        "responses": {
+          "202": {
+            "description": "Note is updated succesfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
       }
     }
   },
