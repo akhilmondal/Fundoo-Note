@@ -1,0 +1,48 @@
+info: ::1 - - [04/Jul/2023:10:48:33 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Jul/2023:10:48:33 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Jul/2023:10:48:33 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 150945 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Jul/2023:10:48:33 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 246440 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Jul/2023:10:48:33 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1435746 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Jul/2023:10:48:33 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Jul/2023:11:07:00 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:07:04 +0000] "POST /api/v1/users/ HTTP/1.1" 201 326 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:07:22 +0000] "POST /api/v1/users/ HTTP/1.1" 400 67 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:07:32 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:08:05 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:08:16 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:08:25 +0000] "POST /api/v1/notes HTTP/1.1" 201 292 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:08:32 +0000] "POST /api/v1/notes HTTP/1.1" 201 292 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:08:53 +0000] "GET /api/v1/notes HTTP/1.1" 200 771 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:10:22 +0000] "GET /api/v1/notes HTTP/1.1" 200 792 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:10:45 +0000] "GET /api/v1/notes HTTP/1.1" 200 792 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:12:34 +0000] "GET /api/v1/notes HTTP/1.1" 200 792 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:16:09 +0000] "GET /api/v1/notes HTTP/1.1" 200 792 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:19:22 +0000] "GET /api/v1/notes/count HTTP/1.1" 400 178 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:22:25 +0000] "GET /api/v1/notes/countnote HTTP/1.1" 400 182 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:24:09 +0000] "GET /api/v1/notes/countnote HTTP/1.1" 400 61 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:24:38 +0000] "GET /api/v1/notes/countnote HTTP/1.1" 200 771 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:11:29:53 +0000] "GET /api/v1/notes/countnote HTTP/1.1" 200 790 "-" "PostmanRuntime/7.32.3"
+

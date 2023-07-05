@@ -26,7 +26,10 @@ export const userAuth = async (req, res, next) => {
     req.body.createdBy = user.id;
     next();
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 

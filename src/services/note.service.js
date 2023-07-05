@@ -1,4 +1,5 @@
 import Note from '../models/note.model';
+import { client } from '../config/redis';
 
 // creat new note.
 export const newNote = async (body) => {
@@ -9,7 +10,11 @@ export const newNote = async (body) => {
 // Get all Notes
 export const getAllNotes = async (body) => {
   const data = await Note.find({ createdBy: body.createdBy });
-  return data;
+  console.log(data);
+  if (data) {
+    await client.set(body.createdBy, JSON.stringify(data));
+    return data;
+  }
 };
 
 // Get note by id
@@ -74,3 +79,10 @@ export const trashNote = async (_id, body) => {
     throw new Error('Invalid Note Id');
   }
 };
+
+// export const getCountofNotes = async (body) => {
+//   const data = await Note.find({ createdBy: body.createdBy });
+//   if (data) {
+//     return data;
+//   }
+// };
