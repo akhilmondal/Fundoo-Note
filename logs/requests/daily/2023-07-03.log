@@ -10,3 +10,19 @@ info: ::1 - - [03/Jul/2023:03:33:35 +0000] "GET /api-docs/swagger-ui-bundle.js H
 
 info: ::1 - - [03/Jul/2023:03:33:35 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 
+info: ::1 - - [03/Jul/2023:11:22:37 +0000] "POST /api/v1/users HTTP/1.1" 201 332 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [03/Jul/2023:11:22:59 +0000] "POST /api/v1/users/login HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [03/Jul/2023:11:24:13 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [03/Jul/2023:11:24:25 +0000] "POST /api/v1/notes HTTP/1.1" 201 295 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [03/Jul/2023:11:24:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 292 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [03/Jul/2023:11:24:50 +0000] "GET /api/v1/notes HTTP/1.1" 400 62 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [03/Jul/2023:11:25:55 +0000] "GET /api/v1/notes HTTP/1.1" 200 774 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [03/Jul/2023:11:26:02 +0000] "GET /api/v1/notes HTTP/1.1" 200 795 "-" "PostmanRuntime/7.32.3"
+

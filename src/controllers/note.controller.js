@@ -24,6 +24,7 @@ export const newNote = async (req, res, next) => {
 export const getAllNotes = async (req, res, next) => {
   try {
     const data = await NoteService.getAllNotes(req.body);
+    console.log("COunt of the data ", count);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -121,3 +122,24 @@ export const trashNote = async (req, res, next) => {
     });
   }
 };
+
+
+// export const getCountofNotes = async (req, res, next) => {
+//   try {
+//     let count = 0;
+//     const data = await NoteService.getCountofNotes(req.body);
+//     data.forEach(element => {
+//       count++;
+//     });
+//     res.status(HttpStatus.OK).json({
+//       code: HttpStatus.OK,
+//       data: data,
+//       message: 'All Notes fetched successfully.'
+//     });
+//   } catch (error) {
+//     res.status(HttpStatus.BAD_REQUEST).json({
+//       code: HttpStatus.BAD_REQUEST,
+//       message: `${error}`
+//     });
+//   }
+// };
