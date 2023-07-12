@@ -32,4 +32,4 @@ const noteSchema = new Schema(
   }
 );
 
-export default model('Note', noteSchema);
+export default model('Note', noteSchema); // MongoDB collection associated with the model. It craetes Collections according to this model.

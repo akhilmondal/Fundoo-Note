@@ -2651,3 +2651,83 @@ info: ::1 - - [05/Jul/2023:02:57:07 +0000] "POST /api/v1/users/ HTTP/1.1" 400 14
 
 info: ::1 - - [05/Jul/2023:02:57:40 +0000] "POST /api/v1/users/ HTTP/1.1" 201 329 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [07/Jul/2023:04:51:53 +0000] "GET /api/v1/notes HTTP/1.1" 400 55 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:04:52:18 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:04:53:39 +0000] "POST /api/v1/users/login HTTP/1.1" 202 283 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:04:54:13 +0000] "GET /api/v1/notes HTTP/1.1" 200 792 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:05:00:56 +0000] "POST /api/v1/notes/ HTTP/1.1" 400 63 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:05:01:14 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:11:58 +0000] "POST /api/v1/users HTTP/1.1" 400 147 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:12:14 +0000] "POST /api/v1/users HTTP/1.1" 400 148 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:12:28 +0000] "POST /api/v1/users HTTP/1.1" 201 332 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:13:12 +0000] "POST /api/v1/users/login HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:14:02 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:14:13 +0000] "POST /api/v1/notes HTTP/1.1" 201 295 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:14:22 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:14:30 +0000] "POST /api/v1/notes HTTP/1.1" 201 295 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:14:36 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:14:44 +0000] "POST /api/v1/notes HTTP/1.1" 201 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:16:01 +0000] "PUT /api/v1/notes/archive/64a7ad547e5d6338a3dbfcb9 HTTP/1.1" 200 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:16:03 +0000] "PUT /api/v1/notes/archive/64a7ad547e5d6338a3dbfcb9 HTTP/1.1" 200 295 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:16:04 +0000] "PUT /api/v1/notes/archive/64a7ad547e5d6338a3dbfcb9 HTTP/1.1" 200 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:16:47 +0000] "PUT /api/v1/notes/archive/64a7ad467e5d6338a3dbfcb5 HTTP/1.1" 200 295 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:16:52 +0000] "PUT /api/v1/notes/archive/64a7ad467e5d6338a3dbfcb5 HTTP/1.1" 200 296 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:17:06 +0000] "PUT /api/v1/notes/trash/64a7ad467e5d6338a3dbfcb5 HTTP/1.1" 200 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:17:32 +0000] "GET /api/v1/notes/count HTTP/1.1" 400 178 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:18:12 +0000] "GET /api/v1/notes/count HTTP/1.1" 400 178 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:19:09 +0000] "GET /api/v1/notes/count HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:19:41 +0000] "GET /api/v1/notes/count HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:19:43 +0000] "GET /api/v1/notes/count HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:20:04 +0000] "GET /api/v1/notes/count HTTP/1.1" 400 164 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:27:46 +0000] "GET /api/v1/notes/count HTTP/1.1" 400 164 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:30:04 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 61 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:30:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 1507 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:33:27 +0000] "GET /api/v1/notes/count HTTP/1.1" 400 63 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:34:37 +0000] "GET /api/v1/notes/count HTTP/1.1" 200 116 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [07/Jul/2023:06:35:52 +0000] "GET /api/v1/notes/count HTTP/1.1" 200 107 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [08/Jul/2023:02:43:08 +0000] "GET /api/v1/notes/count HTTP/1.1" 400 55 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [08/Jul/2023:02:43:35 +0000] "POST /api/v1/users/login HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [08/Jul/2023:02:43:59 +0000] "POST /api/v1/notes/count HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [08/Jul/2023:02:44:17 +0000] "GET /api/v1/notes/count HTTP/1.1" 200 107 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [08/Jul/2023:03:17:57 +0000] "GET /api/v1/notes/count HTTP/1.1" 400 178 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [08/Jul/2023:03:19:28 +0000] "GET /api/v1/notes/count HTTP/1.1" 200 107 "-" "PostmanRuntime/7.32.3"
+

@@ -13,7 +13,7 @@ router.post('', newNoteValidator, userAuth, noteController.newNote);
 router.get('', userAuth, redisForGetallNote, noteController.getAllNotes);
 
 //route to get a single note by id
-router.get('/:_id', userAuth, noteController.getNote);
+//router.get('/:_id', userAuth, noteController.getNote);
 
 //route to update Note
 router.put('/:_id', userAuth, noteController.updateNote);
@@ -27,6 +27,7 @@ router.put('/archive/:_id', userAuth, noteController.archiveNote);
 //route to trash Note
 router.put('/trash/:_id', userAuth, noteController.trashNote);
 
-//router.get('/countnote', userAuth, noteController.getCountofNotes);
+router.get('/count', userAuth, noteController.countNote);
+
 
 export default router;

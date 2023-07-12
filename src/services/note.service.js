@@ -1,9 +1,10 @@
 import Note from '../models/note.model';
 import { client } from '../config/redis';
 
-// creat new note.
+// create new note.
 export const newNote = async (body) => {
   const data = await Note.create(body);
+  console.log(data);
   return data;
 };
 
@@ -80,9 +81,33 @@ export const trashNote = async (_id, body) => {
   }
 };
 
-// export const getCountofNotes = async (body) => {
-//   const data = await Note.find({ createdBy: body.createdBy });
-//   if (data) {
-//     return data;
-//   }
-// };
+export const countNote = async (body) => {
+  const data = await Note.find({ createdBy: body.createdBy });
+  let countAll = 0;
+  let countArchive = 0;
+  let countTrash = 0;
+  const countNote = {};
+  if (data) {
+    data.forEach((element) => {
+      countAll++;
+    });
+    countNote['AllNote'] = countAll;
+    const countArchiveData = await Note.find({
+      archive: true,
+      createdBy: body.createdBy
+    });
+    countArchiveData.forEach((element) => {
+      countArchive++;
+    });
+    countNote['ArchivedNote'] = countArchive;
+    const countTrashData = await Note.find({
+      trash: true,
+      createdBy: body.createdBy
+    });
+    countTrashData.forEach((element) => {
+      countTrash++;
+    });
+    countNote['TrashedNote'] = countTrash;
+    return countNote;
+  }
+};
