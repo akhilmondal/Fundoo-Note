@@ -4,14 +4,12 @@ import { client } from '../config/redis';
 // create new note.
 export const newNote = async (body) => {
   const data = await Note.create(body);
-  console.log(data);
   return data;
 };
 
 // Get all Notes
 export const getAllNotes = async (body) => {
   const data = await Note.find({ createdBy: body.createdBy });
-  console.log(data);
   if (data) {
     await client.set(body.createdBy, JSON.stringify(data));
     return data;
@@ -73,6 +71,21 @@ export const trashNote = async (_id, body) => {
     const updatedData = await Note.findByIdAndUpdate(
       { _id },
       { trash: trashStatus },
+      { new: true }
+    );
+    return updatedData;
+  } else {
+    throw new Error('Invalid Note Id');
+  }
+};
+
+export const noteColor = async (_id, body) => {
+  const data = await Note.findById({ _id: _id, createdBy: body.createdBy });
+  console.log("Hello everyone",body);
+  if (data) {
+    const updatedData = await Note.findByIdAndUpdate(
+      { _id },
+      { color: body.color },
       { new: true }
     );
     return updatedData;

@@ -2,7 +2,7 @@ import express from 'express';
 import * as noteController from '../controllers/note.controller';
 import { userAuth } from '../middlewares/auth.middleware';
 import { newNoteValidator } from '../validators/note.validator';
-import { redisForGetallNote } from '../middlewares/redis.middleware';
+import { redisForGetallNote } from '../middlewares/redis.middleware'; // use it in get all note
 
 const router = express.Router();
 
@@ -10,7 +10,7 @@ const router = express.Router();
 router.post('', newNoteValidator, userAuth, noteController.newNote);
 
 //route to get all notes
-router.get('', userAuth, redisForGetallNote, noteController.getAllNotes);
+router.get('', userAuth, noteController.getAllNotes);
 
 //route to get a single note by id
 //router.get('/:_id', userAuth, noteController.getNote);
@@ -26,6 +26,8 @@ router.put('/archive/:_id', userAuth, noteController.archiveNote);
 
 //route to trash Note
 router.put('/trash/:_id', userAuth, noteController.trashNote);
+
+router.put('/color/:_id', userAuth, noteController.noteColor);
 
 router.get('/count', userAuth, noteController.countNote);
 

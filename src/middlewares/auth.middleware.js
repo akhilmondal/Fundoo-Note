@@ -1,4 +1,3 @@
-import { array } from '@hapi/joi';
 import dotenv from 'dotenv';
 dotenv.config();
 import HttpStatus from 'http-status-codes';

@@ -1,0 +1,62 @@
+info: ::1 - - [27/Jul/2023:02:24:48 +0000] "PUT /api/v1//notes/trash/64c151f69522bd1a51c7e4e8 HTTP/1.1" 200 289 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:02:24:48 +0000] "GET /api/v1//notes HTTP/1.1" 200 4502 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:02:25:51 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:10:57:06 +0000] "GET /api/v1//notes HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:10:57:35 +0000] "POST /api/v1/users/login HTTP/1.1" 202 291 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:10:58:01 +0000] "GET /api/v1//notes HTTP/1.1" 200 4502 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:10:59:51 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 289 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:11:02:52 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 290 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:11:03:45 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 289 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:11:07:51 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 290 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:11:07:54 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 289 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:11:08:00 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 290 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:11:08:01 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 289 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:11:08:03 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 290 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:11:08:04 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 289 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:11:09:00 +0000] "PUT /api/v1/notes/color/64c0c27f9522bd1a51c7e380 HTTP/1.1" 200 303 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [27/Jul/2023:17:39:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 291 "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:39:56 +0000] "GET /api/v1//notes HTTP/1.1" 200 4515 "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:41:24 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:41:57 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:44:05 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:47:39 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:47:58 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:49:08 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:49:55 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:50:52 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:51:07 +0000] "PUT /api/v1//notes/64c154349522bd1a51c7e4f1 HTTP/1.1" 202 298 "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:51:07 +0000] "GET /api/v1//notes HTTP/1.1" 200 4515 "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:51:18 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:51:50 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2023:17:52:39 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:45505/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+

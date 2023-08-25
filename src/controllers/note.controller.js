@@ -122,6 +122,21 @@ export const trashNote = async (req, res, next) => {
   }
 };
 
+export const noteColor = async (req, res, next) => {
+  try {
+    const data = await NoteService.noteColor(req.params._id, req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Note color changed successfully'
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
 
 export const countNote = async (req, res, next) => {
   try {

@@ -28,7 +28,7 @@ export const userLogin = async (body) => {
       var token = jwt.sign(
         { id: data.id, emailId: data.emailId },
         process.env.SECRET_KEY,
-        { expiresIn: '3h' }
+        { expiresIn: '10h' }
       );
       return token;
     } else {
@@ -49,9 +49,9 @@ export const forgetPassWord = async (body) => {
         _id: data._id
       },
       process.env.PASSWORD_RESET_KEY,
-      { expiresIn: '3h' }
+      { expiresIn: '10h' }
     );
-    await utils.sendMail(data.emailId, token);
+    await utils.sendMail(data.emailId, token);    
     return token;
   } else {
     throw new Error('Email id not found.');

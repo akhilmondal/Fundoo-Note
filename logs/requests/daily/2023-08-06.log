@@ -1,0 +1,14 @@
+info: ::1 - - [06/Aug/2023:06:48:13 +0000] "POST /api/v1/users/login HTTP/1.1" 202 291 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2023:06:49:14 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2023:06:49:52 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2023:06:50:36 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2023:06:50:41 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2023:06:52:01 +0000] "GET /api/v1//notes HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2023:16:49:26 +0000] "GET /api/v1//notes HTTP/1.1" 400 57 "http://localhost:4200/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+
