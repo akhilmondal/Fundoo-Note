@@ -2,6 +2,7 @@ import express from 'express';
 import * as noteController from '../controllers/note.controller';
 import { userAuth } from '../middlewares/auth.middleware';
 import { newNoteValidator } from '../validators/note.validator';
+// eslint-disable-next-line max-len
 import { redisForGetallNote } from '../middlewares/redis.middleware'; // use it in get all note
 
 const router = express.Router();
@@ -10,13 +11,16 @@ const router = express.Router();
 router.post('', newNoteValidator, userAuth, noteController.newNote);
 
 //route to get all notes
-router.get('', userAuth, noteController.getAllNotes);
+router.get('', userAuth, redisForGetallNote, noteController.getAllNotes);
 
 //route to get a single note by id
 //router.get('/:_id', userAuth, noteController.getNote);
 
 //route to update Note
 router.put('/:_id', userAuth, noteController.updateNote);
+
+//route to update note  by using promise
+router.put('/update/:_id', userAuth, noteController.updateNoteUsingPromise);
 
 //route to delete Note
 router.delete('/:_id', userAuth, noteController.deleteNote);
@@ -30,6 +34,5 @@ router.put('/trash/:_id', userAuth, noteController.trashNote);
 router.put('/color/:_id', userAuth, noteController.noteColor);
 
 router.get('/count', userAuth, noteController.countNote);
-
 
 export default router;

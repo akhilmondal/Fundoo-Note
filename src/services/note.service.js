@@ -37,6 +37,27 @@ export const updateNote = async (_id, body) => {
   return data;
 };
 
+//update note using promises
+export const updateNoteUsingPromise = (_id, body) => {
+  return new Promise((resolve, reject) => {
+    const data = Note.findByIdAndUpdate(
+      {
+        _id: _id,
+        createdBy: body.createdBy
+      },
+      body,
+      {
+        new: true
+      }
+    );
+    if (data) {
+      resolve(data);
+    } else {
+      reject(new Error('Failed to update note.'));
+    }
+  });
+};
+
 //Delete Note by id
 export const deleteNote = async (_id, body) => {
   await Note.findByIdAndDelete({ _id: _id, createdBy: body.createdBy });
@@ -48,7 +69,7 @@ export const archiveNote = async (_id, body) => {
   const data = await Note.findById({ _id: _id, createdBy: body.createdBy });
   let archiveStatus;
   if (data) {
-    archiveStatus = data.archive == false ? true : false;
+    archiveStatus = data.archive === false ? true : false;
     const updatedData = await Note.findByIdAndUpdate(
       {
         _id: _id
@@ -67,7 +88,7 @@ export const trashNote = async (_id, body) => {
   const data = await Note.findById({ _id: _id, createdBy: body.createdBy });
   let trashStatus;
   if (data) {
-    trashStatus = data.trash == false ? true : false;
+    trashStatus = data.trash === false ? true : false;
     const updatedData = await Note.findByIdAndUpdate(
       { _id },
       { trash: trashStatus },
@@ -81,7 +102,7 @@ export const trashNote = async (_id, body) => {
 
 export const noteColor = async (_id, body) => {
   const data = await Note.findById({ _id: _id, createdBy: body.createdBy });
-  console.log("Hello everyone",body);
+  console.log('Hello everyone', body);
   if (data) {
     const updatedData = await Note.findByIdAndUpdate(
       { _id },
@@ -101,7 +122,7 @@ export const countNote = async (body) => {
   let countTrash = 0;
   const countNote = {};
   if (data) {
-    data.forEach((element) => {
+    data.forEach(() => {
       countAll++;
     });
     countNote['AllNote'] = countAll;
@@ -109,7 +130,7 @@ export const countNote = async (body) => {
       archive: true,
       createdBy: body.createdBy
     });
-    countArchiveData.forEach((element) => {
+    countArchiveData.forEach(() => {
       countArchive++;
     });
     countNote['ArchivedNote'] = countArchive;
@@ -117,7 +138,7 @@ export const countNote = async (body) => {
       trash: true,
       createdBy: body.createdBy
     });
-    countTrashData.forEach((element) => {
+    countTrashData.forEach(() => {
       countTrash++;
     });
     countNote['TrashedNote'] = countTrash;

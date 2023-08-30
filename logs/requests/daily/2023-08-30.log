@@ -2,3 +2,41 @@ info: ::1 - - [30/Aug/2023:07:42:22 +0000] "POST /api/v1/users/logincall HTTP/1.
 
 info: ::1 - - [30/Aug/2023:07:43:56 +0000] "POST /api/v1/users/logincall HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [30/Aug/2023:07:47:46 +0000] "POST /api/v1/users/logincall HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:07:47:57 +0000] "POST /api/v1/users/logincall HTTP/1.1" 400 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:07:48:04 +0000] "POST /api/v1/users/logincall HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:18:16 +0000] "POST /api/v1/users/logincall HTTP/1.1" 400 249 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:18:18 +0000] "POST /api/v1/users/logincall HTTP/1.1" 400 249 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:18:35 +0000] "POST /api/v1/users/logincall HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:41:09 +0000] "PUT /api/v1/notes/64c0c27f9522bd1a51c7e380 HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:41:32 +0000] "PUT /api/v1/notes/64c0c27f9522bd1a51c7e380 HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:42:28 +0000] "PUT /api/v1/notes/64c0c27f9522bd1a51c7e380 HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:42:46 +0000] "PUT /api/v1/notes/64c0c27f9522bd1a51c7e380 HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:42:48 +0000] "PUT /api/v1/notes/64c0c27f9522bd1a51c7e380 HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:45:05 +0000] "PUT /api/v1/notes/64c0c27f9522bd1a51c7e380 HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:45:07 +0000] "PUT /api/v1/notes/64c0c27f9522bd1a51c7e380 HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:46:41 +0000] "POST /api/v1/users/logincall HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:47:50 +0000] "PUT /api/v1/notes/64c0c27f9522bd1a51c7e380 HTTP/1.1" 202 305 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:08:57:39 +0000] "PUT /api/v1/notes/64c0c27f9522bd1a51c7e380 HTTP/1.1" 202 305 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:09:08:22 +0000] "PUT /api/v1/notes/update/64c0c27f9522bd1a51c7e380 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:09:32:57 +0000] "PUT /api/v1/notes/update/64c0c27f9522bd1a51c7e380 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:09:33:15 +0000] "PUT /api/v1/notes/update/64c0c27f9522bd1a51c7e380 HTTP/1.1" 202 315 "-" "PostmanRuntime/7.32.3"
+

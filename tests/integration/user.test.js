@@ -6,14 +6,15 @@ import app from '../../src/index';
 
 // Declaring variables
 let userLoginToken;
-let userId;
 
 describe('User APIs Test', () => {
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
         // This will give one by one collection to delete it.
-        mongoose.connection.collections[collection].deleteOne(() => {}); // To delete collections so that the testing can be ferform with newer collections
+        mongoose.connection.collections[collection].deleteOne(() => {});
+        // To delete collections so that the testing
+        //can be ferform with newer collections
       }
     };
 
@@ -77,7 +78,8 @@ describe('User APIs Test', () => {
         .post('/api/v1/users/login')
         .send(userdetails)
         .end((err, res) => {
-          userLoginToken = res.body.userToken; // Assigning the token to the variable from user Controller
+          userLoginToken = res.body.userToken;
+          // Assigning the token to the variable from user Controller
           userId = res.body.userToken._id;
           expect(res.statusCode).to.be.equal(HttpStatus.ACCEPTED);
           done();
@@ -110,7 +112,8 @@ describe('User APIs Test', () => {
       };
       request(app)
         .post('/api/v1/notes')
-        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
+        .set('Authorization', `Bearer ${userLoginToken}`)
+        // Setting the bearer token for the authorization
         .send(noteDetails)
         .end((err, res) => {
           noteId = res.body.data._id;
@@ -126,7 +129,8 @@ describe('User APIs Test', () => {
       };
       request(app)
         .post('/api/v1/notes')
-        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
+        .set('Authorization', `Bearer ${userLoginToken}`)
+        // Setting the bearer token for the authorization
         .send(noteDetails)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
@@ -140,7 +144,8 @@ describe('User APIs Test', () => {
     it('given get all notes should return status 200', (done) => {
       request(app)
         .get('/api/v1/notes')
-        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
+        .set('Authorization', `Bearer ${userLoginToken}`)
+        // Setting the bearer token for the authorization
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(HttpStatus.OK);
           done();
@@ -153,7 +158,8 @@ describe('User APIs Test', () => {
       };
       request(app)
         .post('/api/v1/notes')
-        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
+        .set('Authorization', `Bearer ${userLoginToken}`)
+        // Setting the bearer token for the authorization
         .send(noteDetails)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
@@ -184,7 +190,8 @@ describe('User APIs Test', () => {
       };
       request(app)
         .put(`/api/v1/notes/${noteId}`)
-        .set('Authorization', `Bearer ${userLoginToken}`) // Setting the bearer token for the authorization
+        .set('Authorization', `Bearer ${userLoginToken}`)
+        // Setting the bearer token for the authorization
         .send(noteDetails)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(HttpStatus.ACCEPTED);

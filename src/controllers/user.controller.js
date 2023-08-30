@@ -1,6 +1,5 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
-import { error } from '@hapi/joi/lib/base';
 
 /**
  * Controller to create a new user
@@ -8,7 +7,7 @@ import { error } from '@hapi/joi/lib/base';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newUser = async (req, res, next) => {
+export const newUser = async (req, res) => {
   try {
     const data = await UserService.newUser(req.body);
     res.status(HttpStatus.CREATED).json({
@@ -25,7 +24,7 @@ export const newUser = async (req, res, next) => {
 };
 
 // Controller to login an user
-export const userLogin = async (req, res, next) => {
+export const userLogin = async (req, res) => {
   try {
     const userToken = await UserService.userLogin(req.body);
     res.status(HttpStatus.ACCEPTED).json({
@@ -59,7 +58,7 @@ export const userloginCallback = (req, res) => {
 };
 
 // Controller for forget password
-export const forgetPassWord = async (req, res, next) => {
+export const forgetPassWord = async (req, res) => {
   try {
     const userToken = await UserService.forgetPassWord(req.body);
     res.status(HttpStatus.OK).json({
@@ -76,7 +75,7 @@ export const forgetPassWord = async (req, res, next) => {
 };
 
 //Controller to reset password of the user
-export const resetPassWord = async (req, res, next) => {
+export const resetPassWord = async (req, res) => {
   try {
     const data = await UserService.resetPassWord(req.body);
     res.status(HttpStatus.ACCEPTED).json({

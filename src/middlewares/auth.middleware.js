@@ -32,7 +32,8 @@ export const userAuth = async (req, res, next) => {
   }
 };
 
-// Middleware to authenticate if user has a valid Authorization token to reset Password
+// Middleware to authenticate if user has a
+//valid Authorization token to reset Password
 export const userAuthForPassWordReset = async (req, res, next) => {
   try {
     let bearerToken = req.params.token;

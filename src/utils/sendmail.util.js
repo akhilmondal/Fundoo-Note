@@ -35,6 +35,7 @@ export const sendMail = async (email, token) => {
       to: email,
       subject: 'Password Reset',
       text: `This mail is to Reset Your Password.".`,
+      // eslint-disable-next-line max-len
       html: `<h1>Hello,<br><br>Click on given link to reset your password!</h1><br><h1>Link:><a href="http://localhost:${process.env.APP_PORT}/${token}">click here</a></h1>`
     };
     const result = await transport.sendMail(mailOptions);

@@ -20,4 +20,6 @@ const userSchema = new Schema(
   }
 );
 
-export default model('User', userSchema); // MongoDB collection associated with the model. It craetes Collections according to this model.
+export default model('User', userSchema);
+// MongoDB collection associated with the model.
+//It craetes Collections according to this model.

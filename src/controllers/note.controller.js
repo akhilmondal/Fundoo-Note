@@ -1,9 +1,8 @@
 import HttpStatus from 'http-status-codes';
 import * as NoteService from '../services/note.service';
-import { date } from '@hapi/joi';
 
 //Controller to create new note
-export const newNote = async (req, res, next) => {
+export const newNote = async (req, res) => {
   try {
     // console.log("create note req body",req.body);
     const data = await NoteService.newNote(req.body);
@@ -21,7 +20,7 @@ export const newNote = async (req, res, next) => {
 };
 
 //Controller to get all notes
-export const getAllNotes = async (req, res, next) => {
+export const getAllNotes = async (req, res) => {
   try {
     const data = await NoteService.getAllNotes(req.body);
     res.status(HttpStatus.OK).json({
@@ -38,7 +37,7 @@ export const getAllNotes = async (req, res, next) => {
 };
 
 //get note by id
-export const getNote = async (req, res, next) => {
+export const getNote = async (req, res) => {
   try {
     const data = await NoteService.getNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
@@ -55,7 +54,7 @@ export const getNote = async (req, res, next) => {
 };
 
 //Controller to Update Note
-export const updateNote = async (req, res, next) => {
+export const updateNote = async (req, res) => {
   try {
     const data = await NoteService.updateNote(req.params._id, req.body);
     res.status(HttpStatus.ACCEPTED).json({
@@ -71,8 +70,26 @@ export const updateNote = async (req, res, next) => {
   }
 };
 
+//Controller to update note by using promise
+export const updateNoteUsingPromise = (req, res) => {
+  NoteService.updateNoteUsingPromise(req.params._id, req.body)
+    .then((data) => {
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'Note updated successfully'
+      });
+    })
+    .catch((error) => {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      });
+    });
+};
+
 //Controller to delete a note by id
-export const deleteNote = async (req, res, next) => {
+export const deleteNote = async (req, res) => {
   try {
     await NoteService.deleteNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
@@ -89,7 +106,7 @@ export const deleteNote = async (req, res, next) => {
 };
 
 //Controller for Archive Note
-export const archiveNote = async (req, res, next) => {
+export const archiveNote = async (req, res) => {
   try {
     const data = await NoteService.archiveNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
@@ -106,7 +123,7 @@ export const archiveNote = async (req, res, next) => {
 };
 
 //Controller for trash Note
-export const trashNote = async (req, res, next) => {
+export const trashNote = async (req, res) => {
   try {
     const data = await NoteService.trashNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
@@ -122,7 +139,7 @@ export const trashNote = async (req, res, next) => {
   }
 };
 
-export const noteColor = async (req, res, next) => {
+export const noteColor = async (req, res) => {
   try {
     const data = await NoteService.noteColor(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
@@ -138,7 +155,7 @@ export const noteColor = async (req, res, next) => {
   }
 };
 
-export const countNote = async (req, res, next) => {
+export const countNote = async (req, res) => {
   try {
     const data = await NoteService.countNote(req.body);
     res.status(HttpStatus.OK).json({

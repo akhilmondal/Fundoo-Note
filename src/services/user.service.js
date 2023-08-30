@@ -5,7 +5,6 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import * as utils from '../utils/sendmail.util';
 import { customLogger } from '../config/logger';
-import { error } from '@hapi/joi/lib/base';
 
 //create new user
 export const newUser = async (body) => {

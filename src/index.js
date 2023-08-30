@@ -17,7 +17,7 @@ import logger, { logStream } from './config/logger';
 
 import morgan from 'morgan';
 
-// Importing Swagger 
+// Importing Swagger
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./Swagger/Swagger.json');
 
@@ -25,7 +25,6 @@ const app = express();
 const host = process.env.APP_HOST;
 const port = process.env.APP_PORT;
 const api_version = process.env.API_VERSION;
-
 
 app.use(cors());
 app.use(helmet());
@@ -37,13 +36,15 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 database();
 redis();
 
+// eslint-disable-next-line max-len
 app.use(`/api/${api_version}`, routes()); // To go for the requested routes './routes/index.js'
 app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);
 
-//to start the server and make it listen for incoming HTTP requests on a specified port.
-app.listen(port, () => { 
+//to start the server and make it listen for
+// incoming HTTP requests on a specified port.
+app.listen(port, () => {
   logger.info(`Server started at ${host}:${port}/api/${api_version}/`);
 });
 
