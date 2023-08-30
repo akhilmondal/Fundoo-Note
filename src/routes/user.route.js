@@ -11,6 +11,9 @@ router.post('', newUserValidator, userController.newUser);
 //Route to login a user
 router.post('/login', userController.userLogin);
 
+//Route to implement callback to handle api request
+router.post('/logincall', userController.userloginCallback);
+
 //Route for forget password
 router.put('/forgetpass', userController.forgetPassWord);
 

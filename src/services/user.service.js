@@ -4,6 +4,8 @@ import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import * as utils from '../utils/sendmail.util';
+import { customLogger } from '../config/logger';
+import { error } from '@hapi/joi/lib/base';
 
 //create new user
 export const newUser = async (body) => {
@@ -30,6 +32,7 @@ export const userLogin = async (body) => {
         process.env.SECRET_KEY,
         { expiresIn: '10h' }
       );
+      customLogger.info(`User registered succesfully.`);
       return token;
     } else {
       throw new Error('Invalid Password.');
@@ -37,6 +40,30 @@ export const userLogin = async (body) => {
   } else {
     throw new Error('Invalid emailId.');
   }
+};
+
+//user login by using call backs
+export const userloginCallback = (body, callback) => {
+  User.findOne({ emailId: body.emailId }, (error, data) => {
+    if (error) {
+      return callback(error);
+    }
+    if (data) {
+      if (bcrypt.compareSync(body.passWord, data.passWord)) {
+        var token = jwt.sign(
+          { id: data.id, emailId: data.emailId },
+          process.env.SECRET_KEY,
+          { expiresIn: '10h' }
+        );
+        customLogger.info('User registered successfully.');
+        return callback(null, token);
+      } else {
+        return callback(new Error('Invalid Password'));
+      }
+    } else {
+      return callback(new Error('invalid emailId'));
+    }
+  });
 };
 
 // Forget PassWord
@@ -51,7 +78,7 @@ export const forgetPassWord = async (body) => {
       process.env.PASSWORD_RESET_KEY,
       { expiresIn: '10h' }
     );
-    await utils.sendMail(data.emailId, token);    
+    await utils.sendMail(data.emailId, token);
     return token;
   } else {
     throw new Error('Email id not found.');

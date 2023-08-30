@@ -1,5 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
+import { error } from '@hapi/joi/lib/base';
 
 /**
  * Controller to create a new user
@@ -38,6 +39,23 @@ export const userLogin = async (req, res, next) => {
       message: `${error}`
     });
   }
+};
+
+//controller for User login by using CallBack functions
+export const userloginCallback = (req, res) => {
+  UserService.userloginCallback(req.body, (err, data) => {
+    if (err) {
+      return res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${err}`
+      });
+    }
+    return res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      userToken: data,
+      message: 'User logged in successfully'
+    });
+  });
 };
 
 // Controller for forget password

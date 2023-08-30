@@ -1,0 +1,4 @@
+info: ::1 - - [30/Aug/2023:07:42:22 +0000] "POST /api/v1/users/logincall HTTP/1.1" 500 87 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [30/Aug/2023:07:43:56 +0000] "POST /api/v1/users/logincall HTTP/1.1" 202 291 "-" "PostmanRuntime/7.32.3"
+

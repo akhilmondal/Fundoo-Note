@@ -6,49 +6,9 @@
     "auditLog": "logs/requests/daily/.66602cdde70fd43456e51d0c9addc83824638c4d-audit.json",
     "files": [
         {
-            "date": 1690165676025,
-            "name": "logs/requests/daily/2023-07-24.log",
-            "hash": "8f2496a3e1d86531593677df07c56f5d4c57b2659d1ac112c47864eb4db43093"
-        },
-        {
-            "date": 1690249524624,
-            "name": "logs/requests/daily/2023-07-25.log",
-            "hash": "e8dc7e42276cf3b62f71650c4a108a7a0795dd8cf3d58978c5e8e54f950d48b6"
-        },
-        {
-            "date": 1690313699275,
-            "name": "logs/requests/daily/2023-07-26.log",
-            "hash": "e905fbfaf6675146ff06a5f80d4fae0e835bb56329074842ad509db8967ef309"
-        },
-        {
-            "date": 1690424688032,
-            "name": "logs/requests/daily/2023-07-27.log",
-            "hash": "33d0d806914f1234273b2b759bb81eef7b270d2c53cff1f31a3ebd4ce221f506"
-        },
-        {
-            "date": 1690520980916,
-            "name": "logs/requests/daily/2023-07-28.log",
-            "hash": "d2496a6e0258cc0a1fd063d31b9d45a725f3bd72e128897ce0c54f313516b3a2"
-        },
-        {
-            "date": 1690773808926,
-            "name": "logs/requests/daily/2023-07-31.log",
-            "hash": "d18968acd395f5322289b3970f907c5634f6ed0aba593d525b4d901796344bbd"
-        },
-        {
-            "date": 1691052969043,
-            "name": "logs/requests/daily/2023-08-03.log",
-            "hash": "a2628ca213c6ad0d4902b75e22b15adc2bcd0858166e7a41ef7c33f210a72682"
-        },
-        {
-            "date": 1691304405378,
-            "name": "logs/requests/daily/2023-08-06.log",
-            "hash": "cdbab75f75ca0909ba38666b333d00df469829b6c3ea37a3d5e85bd43bda5bb0"
-        },
-        {
-            "date": 1691371923225,
-            "name": "logs/requests/daily/2023-08-07.log",
-            "hash": "37b73c2411ae1c244a5097b247d8a4a90f867fc60785d77af29befd9e5a25547"
+            "date": 1693381144185,
+            "name": "logs/requests/daily/2023-08-30.log",
+            "hash": "659ff2f8beddc5e507170cf01bd75013be90d5655f68ade6b3df8cf13f19248f"
         }
     ],
     "hashType": "sha256"

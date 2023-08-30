@@ -2455,3 +2455,55 @@ Error: EIO: i/o error, write
     at addChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
     at readableAddChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
     at DerivedLogger.Readable.push (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10) {"date":"Mon Aug 07 2023 07:02:04 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.24,0.54,0.66],"uptime":69430.95},"process":{"argv":["node","/home/akhil/CFP238/Fundoo_Note/FundooNote/src/index.js"],"cwd":"/home/akhil/CFP238/Fundoo_Note/FundooNote","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18680277,"external":21335622,"heapTotal":205541376,"heapUsed":183248104,"rss":294985728},"pid":22004,"uid":1000,"version":"v18.16.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (node:fs:934:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Console.Writable.write (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at DerivedLogger.ondata (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)\n    at readableAddChunk (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)\n    at DerivedLogger.Readable.push (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)","timestamp":"2023-08-07T01:32:04.785Z","trace":[{"column":3,"file":"node:fs","function":"writeSync","line":934,"method":null,"native":false},{"column":3,"file":"node:internal/fs/sync_write_stream","function":"SyncWriteStream._write","line":26,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"SyncWriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false},{"column":11,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"readableAddChunk","line":262,"method":null,"native":false},{"column":10,"file":"/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.Readable.push","line":228,"method":"push","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-30T07:39:05.366Z"}
+info: Connected to the database. {"timestamp":"2023-08-30T07:39:05.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-30T07:42:18.335Z"}
+info: Connected to the database. {"timestamp":"2023-08-30T07:42:18.355Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'body')
+    at userloginCallback (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/controllers/user.controller.js:46:25)
+    at userloginCallback (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/controllers/user.controller.js:46:3)
+    at userloginCallback (/home/akhil/CFP238/Fundoo_Note/FundooNote/src/controllers/user.controller.js:46:3)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:328:13)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:328:13)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:328:13)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/express/lib/router/index.js:280:10)
+    at /home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/raw-body/index.js:231:16)
+    at done (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/akhil/CFP238/Fundoo_Note/FundooNote/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/logincall 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-08-30T07:42:22.514Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-08-30T07:43:45.440Z"}
+info: Connected to the database. {"timestamp":"2023-08-30T07:43:45.461Z"}
